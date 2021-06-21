@@ -14,6 +14,9 @@
 .av-font-color-i{
     color: #801C1C;
 }
+.av-font-color-ii{
+    color: #C24848;
+}
 .av-font-i{
     font-size: 0.75rem;
 }
@@ -23,7 +26,12 @@
 .av-font-iii{
     font-size: 1rem;
 }
-
+.av-font-iv{
+    font-size: 1.0625rem;
+}
+.av-font-v{
+    font-size: 1.25rem;
+}
 
 /* Header */
 header{
@@ -148,7 +156,7 @@ header{
     bottom: 0;
     height: 5px;
     width: 0;
-    border-bottom: 3px solid #C24848;;
+    border-bottom: 3px solid #C24848;
 }
 .main-nav-menu #av-main-nav a.nav-link.active::before{
     width: 100%;
@@ -175,9 +183,70 @@ header{
 /* Main Nav End*/
 /* Header End */
 
+
 /* Home Page */
 /* Primary Links */
-
+.primary-links .dropdown{
+    margin-right: 1rem;
+}
+.primary-links .dropdown:last-child{
+    margin-right: 0;
+}
+.primary-links button{
+    background: #FFFFFF;
+    border: 1px solid #C24848;
+    box-shadow: -4px 5px 14px -6px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    width: 237px;
+    line-height: 39px;
+}
+.primary-links button::after{
+    content: none;
+}
+.primary-links button:hover{
+    color: #C24848;
+}
+.primary-links button .btn-arrow{
+    transition: all 0.5s;
+}
+.primary-links button i{
+    font-size: 20px;
+}
+.primary-links .dropdown-menu{
+    background: #C24848;
+    border-radius: 12px;
+    min-width: 45vw;
+    width: max-content;
+}
+.primary-links .dropdown-menu div ul li{
+    width: fit-content;
+}
+.primary-links .dropdown-menu .dropdown-header{
+    color: #FFDAA5;
+}
+.primary-links .dropdown-menu .dropdown-item{
+    color: #FFFFFF;
+    position: relative;
+}
+.primary-links .dropdown-menu .dropdown-item:hover{
+    background: none;
+    color: #FFDAA5;
+}
+.primary-links .dropdown-menu .dropdown-item::before{ /* Border below link */
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 5px;
+    width: 0;
+    border-bottom: 1px solid #FFDAA5;
+}
+.primary-links .dropdown-menu .dropdown-item.active::before{
+    width: 100%;
+}
+.primary-links .dropdown-menu .dropdown-item:hover::before,.primary-links .dropdown-menu .dropdown-item:focus::before{ /* Border width animation on hover on link */
+    width: 100%;
+    transition: all 0.5s;
+}
 /* Primary Links End*/
 /* Home Page End*/
 

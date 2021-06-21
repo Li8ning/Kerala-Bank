@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Kerala's Own Bank" />
+    <meta property="og:description" content="Kerala Bank" />
+    <meta property="og:url" content="https://test2.thepunditreport.com/kerala-bank/" />
+    <meta property="og:image" content="./assets/img/kblogo-web2.png" />
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="shortcut icon" type="image/jpg" href="./assets/svg/letter 1 logo.svg"/>

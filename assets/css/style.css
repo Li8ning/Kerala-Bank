@@ -279,9 +279,10 @@ header{
 .hero-section .right-col .carousel:hover .slider-controls{
     opacity: 1;
 }
-.hero-section .right-col .carousel .carousel-control-prev i,.hero-section .right-col .carousel .carousel-control-next i{
-    color: #C24848;
-    font-size: 38px;
+.hero-section .right-col .carousel .slider-controls img{
+    background-image: none;
+    height: 48px;
+    width: 48px;
 }
 .hero-section .right-col .carousel .carousel-indicators{
     margin-bottom: 5px;
@@ -294,6 +295,91 @@ header{
     border: none;
 }
 /* Hero Section End*/
+
+/* Services Section */
+.services-section .card{
+    background: #FFFFFF;
+    border: 2px solid #C24848;
+    box-sizing: border-box;
+    border-radius: 16px;
+    min-height: 160px;
+    background-image: url('../svg/services-bg-icon-1.svg');
+    background-repeat: no-repeat;
+    background-position: 90% 7%;
+    padding: 0 30px;
+}
+.services-section .card a{
+    color: #C24848;
+}
+.services-section .card .card-title{
+    margin-bottom: 0;
+}
+.services-section .card img{
+    width: 34%;
+}
+.services-section .card .dark-icon{
+    visibility: visible;
+    max-width: 34%;
+}
+.services-section .card .white-icon{
+    visibility: hidden;
+    max-width: 0;
+}
+.services-section .card .card-body{
+    flex: inherit;
+    padding: 0;
+}
+.services-section .card .card-text{
+    visibility: hidden;
+    max-height: 0;
+}
+.services-section .card:hover{
+    background: #C24848;
+    background-image: url('../svg/services-bg-icon-2.svg');
+    background-repeat: no-repeat;
+    background-position: 90% 7%;
+}
+.services-section .card:hover a{
+    color: #FFFFFF;
+}
+.services-section .card:hover .card-title{
+    margin-bottom: 5px;
+}
+.services-section .card:hover .card-text{
+    visibility: visible;
+    transition: all 0.2s;
+    padding-bottom: 10px;
+    max-height: unset;
+}
+.services-section .card:hover .white-icon{
+    visibility: visible;
+    max-width: unset;
+}
+.services-section .card:hover .dark-icon{
+    visibility: hidden;
+    max-width: 0;
+}
+.services-section .calculators-row{
+    background: #FFF9F0;
+    border-radius: 12px;
+}
+.services-section .calculators-row .btn{
+    background: #C24848;
+    border-radius: 10px;
+    line-height: 29px;
+}
+.services-section .calculators-row .btn:hover{
+    background: #F36767;
+    color: #FFFFFF;
+}
+.services-section .locate-row .row-title span{
+    color: #570100;
+}
+.services-section .locate-row .locations-col{
+    background: #570100;
+    border-radius: 12px;
+}
+/* Services Section End*/
 /* Home Page End*/
 
 

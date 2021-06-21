@@ -17,6 +17,9 @@
 .av-font-color-ii{
     color: #C24848;
 }
+.av-font-color-iii{
+    color: #FFFFFF;
+}
 .av-font-i{
     font-size: 0.75rem;
 }
@@ -30,7 +33,16 @@
     font-size: 1.0625rem;
 }
 .av-font-v{
+    font-size: 1.125rem;
+}
+.av-font-vi{
     font-size: 1.25rem;
+}
+.av-font-vii{
+    font-size: 1.5rem;
+}
+.av-font-viii{
+    font-size: 2.8125rem;
 }
 
 /* Header */
@@ -248,6 +260,40 @@ header{
     transition: all 0.5s;
 }
 /* Primary Links End*/
+
+/* Hero Section */
+.hero-section .left-col .btn{
+    background: #C24848;
+    border-radius: 28px;
+}
+.hero-section .left-col .btn:hover{
+    background: #F36767;
+    color: #FFFFFF;
+}
+.hero-section .right-col .carousel{
+    border-radius: 18px;
+}
+.hero-section .right-col .carousel .slider-controls{
+    opacity: 0;
+}
+.hero-section .right-col .carousel:hover .slider-controls{
+    opacity: 1;
+}
+.hero-section .right-col .carousel .carousel-control-prev i,.hero-section .right-col .carousel .carousel-control-next i{
+    color: #C24848;
+    font-size: 38px;
+}
+.hero-section .right-col .carousel .carousel-indicators{
+    margin-bottom: 5px;
+}
+.hero-section .right-col .carousel .carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    background: #C24848;
+    border-radius: 50%;
+    border: none;
+}
+/* Hero Section End*/
 /* Home Page End*/
 
 

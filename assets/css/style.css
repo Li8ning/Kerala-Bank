@@ -3,6 +3,9 @@
     font-family: 'Product Sans';
     src: url('../fonts/Product Sans Regular.ttf');
 }
+body{
+    color: black;
+}
 a:hover{
     color: white;
 }
@@ -201,6 +204,9 @@ header{
 
 
 /* Home Page */
+section{
+    margin-top: 90px;
+}
 /* Primary Links */
 .primary-links .dropdown{
     margin-right: 1rem;
@@ -388,6 +394,7 @@ header{
 }
 .services-section .more-service-link a{
     font-weight: 300;
+    color: black;
 }
 .services-section .sidebar{
     background: #C24848;
@@ -420,6 +427,40 @@ header{
     padding: 10px 40px
 }
 /* Services Section End*/
+
+/* Activities Section */
+.activities-section,.activities-section .media-col a{
+    font-weight: 500;
+}
+.activities-section .row-title{
+    border-bottom: 1px solid #801C1C;
+}
+.activities-section .row-title h4{
+    font-weight: 300;
+}
+.activities-section .row-title>*,.activities-section .row-content div{
+    padding-left: 0;
+    padding-right: 0;
+}
+.activities-section .row-content h6{
+    color: #490909;
+}
+.activities-section .media-col img{
+    max-width: 126px;
+    border-radius: 12px;
+}
+.activities-section .media-col p{
+    font-weight: 300;
+}
+.activities-section .media-col a:hover{
+    color: #C24848;
+}
+.activities-section .media-col hr{
+    width: 80%;
+    margin: auto;
+    border-top: 1px solid #F7A125;
+}
+/* Activities Section End*/
 /* Home Page End*/
 
 

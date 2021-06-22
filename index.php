@@ -163,7 +163,7 @@ include('header.php');?>
     <!-- Hero Section End-->
 
     <!-- Serives/Third Section -->
-    <section class="services-section mt-5">
+    <section class="services-section">
         <div class="row">
             <div class="col-8 left-col">
                 <div class="row">
@@ -244,7 +244,7 @@ include('header.php');?>
                 </div>
                 <div class="row more-service-link">
                     <div class="col text-end av-font-ii">
-                        <a href="#av-footer" class="text-decoration-none text-dark">For more services see the footer</a>
+                        <a href="#av-footer" class="text-decoration-none">For more services see the footer</a>
                     </div>
                 </div>           
             </div>
@@ -298,8 +298,110 @@ include('header.php');?>
     <!-- Serives/Third Section Ends-->
 
     <!-- Actvities/Fourth Section -->
-    <section class="actvities-secton mt-4"></section>
+    <section class="activities-section ms-3">
+        <div class="row justify-content-between">
+            <div class="col-3 support-col">
+                <div class="row row-title pb-2">
+                    <h4 class="av-font-vii">We are here for you</h4>
+                    <span class="av-font-color-ii av-font-iv fw-bold">Support</span>
+                </div>
+                <div class="row row-content pt-3">
+                    <div class="col">
+                        <ul class="list-unstyled">
+                            <li class="mb-4">
+                                <a href="" class="text-decoration-none d-flex align-items-center">
+                                    <img src="./assets/svg/customer care.svg" alt="" class="img-fluid me-4">
+                                    <h6 class="m-0 av-font-iv">Customer Care</h6>
+                                </a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="" class="text-decoration-none d-flex align-items-center">
+                                    <img src="./assets/svg/block_card.svg" alt="" class="img-fluid me-4">
+                                    <h6 class="m-0 av-font-iv">Block Card</h6>
+                                </a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="" class="text-decoration-none d-flex align-items-center">
+                                    <img src="./assets/svg/fraud.svg" alt="" class="img-fluid me-4">
+                                    <h6 class="m-0 av-font-iv">Report Fraud</h6>
+                                </a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="" class="text-decoration-none d-flex align-items-center">
+                                    <img src="./assets/svg/lost_stolen.svg" alt="" class="img-fluid me-4">
+                                    <h6 class="m-0 av-font-iv">Report lost or stolen card</h6>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 media-col">
+                <div class="row row-title pb-2">
+                    <h4 class="av-font-vii">Explore the bank</h4>
+                    <span class="av-font-color-ii av-font-iv fw-bold">Media Room</span>
+                </div>
+                <div class="row row-content">
+                    <div class="col">
+                        <ul class="list-unstyled">
+                            <li class="my-3 d-flex align-items-center">
+                                <img src="./assets/img/news_updates.jpg" alt="" class="img-fluid me-3">
+                                <div>
+                                    <h6 class="m-0 mb-1 av-font-iv">News & Updates</h6>
+                                    <p class="m-0 av-font-ii">See the latest news and updates about Kerala State Co-operative Bank</p>
+                                    <a href="" class="text-decoration-none av-font-ii av-font-color-ii">See All</a>
+                                </div>                                
+                            </li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li class="my-3 d-flex align-items-center">
+                                <img src="./assets/img/gallery.jpg" alt="" class="img-fluid me-3">
+                                <div>
+                                    <h6 class="m-0 mb-1 av-font-iv">Gallery</h6>
+                                    <p class="m-0 av-font-ii">See the latest events happend at Kerala State Co-operative Bank</p>
+                                    <a href="" class="text-decoration-none av-font-ii av-font-color-ii">See All</a>
+                                </div>                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 security-col">
+                <div class="row row-title pb-2">
+                    <h4 class="av-font-vii">Safe Banking experience</h4>
+                    <span class="av-font-color-ii av-font-iv fw-bold">Security Center</span>
+                </div>
+                <div class="row row-content pt-3">
+                    <div class="col">
+                        <ul class="list-unstyled">
+                            <li class="mb-4">
+                                <a href="" class="text-decoration-none d-flex align-items-center">
+                                    <img src="./assets/svg/accnt_protection.svg" alt="" class="img-fluid me-4">
+                                    <h6 class="m-0 av-font-iv">Protecting Your Account</h6>
+                                </a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="" class="text-decoration-none d-flex align-items-center">
+                                    <img src="./assets/svg/beware_fraud.svg" alt="" class="img-fluid me-4">
+                                    <h6 class="m-0 av-font-iv">Beware of Fraud</h6>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Actvities/Fourth Section End-->
+
+    <!-- Loans/Fifth Section -->
+    <section class="loan-section">
+        <div class="row">
+            <div class="col-4">
+                <img src="./assets/svg/newsletter.svg" alt="" class="img-fluid">
+            </div>
+        </div>
+    </section>
+    <!-- Loans/Fifth Section End-->
 </div>
 
 <?php

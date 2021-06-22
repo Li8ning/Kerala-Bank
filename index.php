@@ -165,7 +165,7 @@ include('header.php');?>
     <!-- Serives/Third Section -->
     <section class="services-section mt-5">
         <div class="row">
-            <div class="col-9">
+            <div class="col-8 left-col">
                 <div class="row">
                     <div class="col">
                         <div class="card text-center justify-content-center">
@@ -241,10 +241,57 @@ include('header.php');?>
                             ATM Locator
                         </a>                        
                     </div>
-                </div>             
+                </div>
+                <div class="row more-service-link">
+                    <div class="col text-end av-font-ii">
+                        <a href="#av-footer" class="text-decoration-none text-dark">For more services see the footer</a>
+                    </div>
+                </div>           
             </div>
-            <div class="col-3">
-
+            <div class="col-4 right-col">
+                <div class="sidebar">
+                    <div class="row row-title av-font-color-iii av-font-iv justify-content-center py-3 m-auto">
+                        Top Schemes
+                    </div>
+                    <div class="row pt-3 m-auto schemes">
+                        <div class="col-4 align-self-center text-center p-0">
+                            <a href="" class="scheme-img"><img src="./assets/img/schemes-1.jpg" alt="" class="img-fluid rounded-circle"></a>
+                        </div>
+                        <div class="col-8 align-self-center p-0">
+                            <a href="" class="scheme-details text-decoration-none av-font-color-iii">
+                                <h6 class="scheme-title m-0 av-font-iii">Home Loans</h6>
+                                <span class="scheme-content av-font-ii">consectetur adipiscing elit. elit elit Euismod ut vulputate </span>
+                            </a>
+                        </div>           
+                    </div>
+                    <div class="row pt-3 m-auto schemes">
+                        <div class="col-4 align-self-center text-center p-0">
+                            <a href="" class="scheme-img"><img src="./assets/img/schemes-2.jpg" alt="" class="img-fluid rounded-circle"></a>
+                        </div>
+                        <div class="col-8 align-self-center p-0">
+                            <a href="" class="scheme-details text-decoration-none av-font-color-iii">
+                                <h6 class="scheme-title m-0 av-font-iii">Car Loans</h6>
+                                <span class="scheme-content av-font-ii">consectetur adipiscing elit. Euismod ut vulputate </span>
+                            </a>
+                        </div>           
+                    </div>
+                    <div class="row pt-3 m-auto schemes">
+                        <div class="col-4 align-self-center text-center p-0">
+                            <a href="" class="scheme-img"><img src="./assets/img/schemes-3.jpg" alt="" class="img-fluid rounded-circle"></a>
+                        </div>
+                        <div class="col-8 align-self-center p-0">
+                            <a href="" class="scheme-details text-decoration-none av-font-color-iii">
+                                <h6 class="scheme-title m-0 av-font-iii">Agri Loans</h6>
+                                <span class="scheme-content av-font-ii">consectetur adipiscing elit. Euismod ut vulputate </span>
+                            </a>
+                        </div>           
+                    </div>
+                    <div class="row pt-3 all-scheme-link">
+                        <div class="col text-center">
+                            <a href="" class="btn av-font-ii fw-bold">See All Products</a>
+                        </div>                        
+                    </div>
+                </div>                
             </div>
         </div>
     </section>

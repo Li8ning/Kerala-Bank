@@ -1,4 +1,4 @@
-<footer class="av-font-noto-sans-jp">
+<footer class="av-font-noto-sans-jp" id="av-footer">
     <!-- Top Section -->
     <div class="top-section pt-3">
         <div class="container-fluid container-xxl px-xl-4 px-xxl-0">            

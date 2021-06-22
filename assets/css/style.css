@@ -3,6 +3,9 @@
     font-family: 'Product Sans';
     src: url('../fonts/Product Sans Regular.ttf');
 }
+a:hover{
+    color: white;
+}
 .av-font-noto-sans-jp{
     font-family: Noto Sans JP;
     font-style: normal;
@@ -182,6 +185,7 @@ header{
     border-radius: 16px;
     width: 300px;
     max-width: 300px;
+    border: 0;
 }
 .main-nav-menu #av-main-nav .dropdown-menu li{
     padding-left: 30px;
@@ -297,6 +301,9 @@ header{
 /* Hero Section End*/
 
 /* Services Section */
+.services-section .right-col{
+    padding-left: 60px;
+}
 .services-section .card{
     background: #FFFFFF;
     border: 2px solid #C24848;
@@ -378,6 +385,39 @@ header{
 .services-section .locate-row .locations-col{
     background: #570100;
     border-radius: 12px;
+}
+.services-section .more-service-link a{
+    font-weight: 300;
+}
+.services-section .sidebar{
+    background: #C24848;
+    border-radius: 12px;
+}
+.services-section .sidebar .row-title{
+    background: #570100;
+    border-radius: 12px;
+    color: #FFE5BF;
+}
+.services-section .sidebar .schemes{
+    padding-left: 5px;
+    padding-right: 20px;
+}
+.services-section .sidebar .scheme-img img{
+    max-width: 70px;
+}
+.services-section .sidebar .scheme-title{
+    font-weight: 500;
+}
+.services-section .sidebar .scheme-content{
+    font-weight: 400;
+}
+.services-section .sidebar .all-scheme-link .btn{
+    background: #F7A125;
+    border-radius: 12px;
+    color: #570100;
+    position: relative;
+    top: 50%;
+    padding: 10px 40px
 }
 /* Services Section End*/
 /* Home Page End*/

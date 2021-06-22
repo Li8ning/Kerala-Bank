@@ -395,9 +395,31 @@ include('header.php');?>
 
     <!-- Loans/Fifth Section -->
     <section class="loan-section">
-        <div class="row">
-            <div class="col-4">
-                <img src="./assets/svg/newsletter.svg" alt="" class="img-fluid">
+        <div class="row justify-content-between">
+            <div class="col-5 newsletter-col text-center av-font-color-iii">
+                <img src="./assets/svg/newsletter.svg" alt="" class="img-fluid mb-2 mt-3">
+                <p class="sub-title av-font-iv mb-1">Subscribe To Our Newsletter</p>
+                <h4 class="av-font-vii col-title fw-bold mb-3">Stay Updated</h4>
+                <form class="px-3">
+                    <input type="email" class="form-control mb-3" id="kb-newsletter-field" placeholder="Enter Your Email">
+                    <button type="submit" class="btn mb-3 px-5 fw-bold av-font-ii">Subscribe Now</button>
+                </form>
+            </div>
+            <div class="col-3 loan-col px-0 agri-loan av-font-color-iii d-flex align-items-end">
+                <div class="mb-3 px-3 w-100 text-center">
+                    <h1 class="av-font-viii fw-bold text-start">
+                        Agri Loans
+                    </h1>
+                    <a href="" class="btn px-4 text-decoration-none av-font-color-iii av-font-ii fw-bold">Apply Now</a>
+                </div>                
+            </div>
+            <div class="col-3 loan-col px-0 vehicle-loan av-font-color-iii d-flex align-items-end">
+                <div class="mb-3 px-3 w-100 text-center">
+                    <h1 class="av-font-viii fw-bold text-start">
+                        Vehicle Loans
+                    </h1>
+                    <a href="" class="btn px-4 text-decoration-none av-font-color-iii av-font-ii fw-bold">Apply Now</a>
+                </div>                
             </div>
         </div>
     </section>

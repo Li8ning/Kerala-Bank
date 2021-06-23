@@ -109,7 +109,7 @@ header{
 }
 /* Dark Mode End */
 /* Top Bar End */
-/* Main Nav */
+/* Desktop Main Nav */
 .main-nav-menu .navbar-brand img{
     height: 115px;
 }
@@ -200,7 +200,12 @@ header{
     border-radius: 11.8148px;
 }
 
-/* Main Nav End*/
+/* Desktop Main Nav End*/
+/* Mobile Nav Bar */
+#av-mob-main-nav ul.outer-menu{
+    width: fit-content;
+}
+/* Mobile Nav Bar End*/
 /* Header End */
 
 
@@ -209,10 +214,10 @@ section,footer{
     margin-top: 90px;
 }
 /* Primary Links */
-.primary-links .dropdown{
+.primary-links .dropdown .dropdown-toggle{
     margin-right: 1rem;
 }
-.primary-links .dropdown:last-child{
+.primary-links .dropdown #p-link-btn3{
     margin-right: 0;
 }
 .primary-links button{
@@ -393,6 +398,9 @@ section,footer{
     background: #570100;
     border-radius: 12px;
 }
+.services-section .locate-row .locations-col a{
+    font-weight: 500;
+}
 .services-section .more-service-link a{
     font-weight: 300;
     color: black;
@@ -523,6 +531,7 @@ footer .top-section .col-menu-links li a{
     color: white;
     text-decoration: none;
     line-height: 30px;
+    font-weight: 500;
 }
 footer .contact-us-row div{
     margin-top: -70px;
@@ -548,5 +557,68 @@ footer .contact-us-row .social-btn img{
 footer .bottom-section{
     background: #38000A;
     color: white;
+    font-weight: 50;
 }
 /* Footer End*/
+
+
+/* Max Media Quries */
+@media (max-width:1399.98px){
+    .main-nav-menu #av-main-nav a.nav-link{
+        margin-right: 18px;
+    }
+}
+@media (max-width:1199.98px){
+    .av-font-ii {
+        font-size: 0.75rem;
+    }
+    .av-font-vii{
+        font-size: 1.25rem;
+    }
+    .main-nav-menu .navbar-brand img{
+        height: 90px;
+    }
+    .main-nav-menu #av-main-nav a.nav-link{
+        margin-right: 16px  ;
+    }
+    .main-nav-menu #av-main-nav .nav-item form .search{
+        width: 148px;
+    }
+    .main-nav-menu #av-main-nav .nav-item button{
+        width: 30px;
+        height: 30px;
+        padding: 2px;
+    }
+    .main-nav-menu #av-main-nav .nav-item i{
+        font-size: 1rem;
+    }
+    .services-section .card{
+        min-height: 141px;
+        padding: 0 20px;
+    }
+    .services-section .calculators-row,.loan-section .row{
+        margin: auto;
+    }
+    .services-section .right-col{
+        padding-left: 28px;
+    }
+    .activities-section .media-col img{
+        width: 100px;
+    }
+}
+@media (max-width:991.98px){
+    .primary-links button{
+        width: 196px;
+    }
+}
+@media (max-width:767.98px){
+    .p-link-before-icons{
+        visibility: hidden;
+        max-width: 0;
+    }
+}
+
+/* Min Media Quries */
+@media (min-width:1200px){
+    
+}

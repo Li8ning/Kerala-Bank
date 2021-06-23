@@ -4,16 +4,16 @@ include('header.php');?>
 
 <div class="container-fluid container-xxl px-xl-4 px-xxl-0">
     <!-- Primary Links -->
-    <section class="primary-links av-font-v mt-5 text-center">
-        <div class="dropdown btn-group">
-            <button class="btn dropdown-toggle av-font-color-ii av-font-v fw-bold" type="button" id="p-link-btn1" data-bs-toggle="dropdown" aria-expanded="false">
-            <i class="fas fa-user me-3"></i>Personal<i class="fas fa-chevron-down ms-3 btn-arrow"></i>
+    <section class="primary-links av-font-iv mt-3 mt-lg-5 d-flex justify-content-center">
+        <div class="dropdown">
+            <button class="btn dropdown-toggle av-font-color-ii av-font-iv fw-bold" type="button" id="p-link-btn1" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-user p-link-before-icons me-3"></i>Personal<i class="fas fa-chevron-down ms-3 btn-arrow"></i>
             </button>
             <div class="dropdown-menu p-4" aria-labelledby="p-link-btn1">
                 <div class="row">
                     <div class="col d-flex justify-content-center">
                         <ul class="list-unstyled">
-                            <li><h6 class="dropdown-header av-font-v fw-bold">Accounts & Deposits</h6></li>
+                            <li><h6 class="dropdown-header av-font-vi fw-bold">Accounts & Deposits</h6></li>
                             <li><a class="dropdown-item av-font-ii" href="#">Savings</a></li>
                             <li><a class="dropdown-item av-font-ii" href="#">Current</a></li>
                             <li><a class="dropdown-item av-font-ii" href="#">Recurring Deposit</a></li>
@@ -22,7 +22,7 @@ include('header.php');?>
                     </div>
                     <div class="col d-flex justify-content-center">
                         <ul class="list-unstyled">
-                            <li><h6 class="dropdown-header av-font-v fw-bold">Loans</h6></li>
+                            <li><h6 class="dropdown-header av-font-vi fw-bold">Loans</h6></li>
                             <li><a class="dropdown-item av-font-ii" href="#">Personal Loan</a></li>
                             <li><a class="dropdown-item av-font-ii" href="#">Housing Loan</a></li>
                             <li><a class="dropdown-item av-font-ii" href="#">Vehicle Loan</a></li>
@@ -32,7 +32,7 @@ include('header.php');?>
                     </div>
                     <div class="col d-flex justify-content-center">
                         <ul class="list-unstyled">
-                            <li><h6 class="dropdown-header av-font-v fw-bold">Insurance</h6></li>
+                            <li><h6 class="dropdown-header av-font-vi fw-bold">Insurance</h6></li>
                             <li><a class="dropdown-item av-font-ii" href="#">APY</a></li>
                             <li><a class="dropdown-item av-font-ii" href="#">PMJBY</a></li>
                             <li><a class="dropdown-item av-font-ii" href="#">PMSBY</a></li>
@@ -40,16 +40,14 @@ include('header.php');?>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="dropdown btn-group">
-            <button class="btn dropdown-toggle av-font-color-ii av-font-v fw-bold" type="button" id="p-link-btn1" data-bs-toggle="dropdown" aria-expanded="false">
-            <i class="fas fa-seedling me-3"></i>PACS<i class="fas fa-chevron-down ms-3 btn-arrow"></i>
+            <button class="btn dropdown-toggle av-font-color-ii av-font-iv fw-bold" type="button" id="p-link-btn2" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-seedling p-link-before-icons me-3"></i>PACS<i class="fas fa-chevron-down ms-3 btn-arrow"></i>
             </button>
-            <div class="dropdown-menu p-4" aria-labelledby="p-link-btn1">
+            <div class="dropdown-menu p-4" aria-labelledby="p-link-btn2">
                 <div class="row">
                     <div class="col d-flex justify-content-center">
                         <ul class="list-unstyled">
-                            <li><h6 class="dropdown-header av-font-v fw-bold">Accounts & Deposits</h6></li>
+                            <li><h6 class="dropdown-header av-font-vi fw-bold">Accounts & Deposits</h6></li>
                             <li><a class="dropdown-item av-font-ii" href="#">Savings</a></li>
                             <li><a class="dropdown-item av-font-ii" href="#">Current</a></li>
                             <li><a class="dropdown-item av-font-ii" href="#">Recurring Deposit</a></li>
@@ -58,7 +56,7 @@ include('header.php');?>
                     </div>
                     <div class="col d-flex justify-content-center">
                         <ul class="list-unstyled">
-                            <li><h6 class="dropdown-header av-font-v fw-bold">Loans</h6></li>
+                            <li><h6 class="dropdown-header av-font-vi fw-bold">Loans</h6></li>
                             <li><a class="dropdown-item av-font-ii" href="#">Personal Loan</a></li>
                             <li><a class="dropdown-item av-font-ii" href="#">Housing Loan</a></li>
                             <li><a class="dropdown-item av-font-ii" href="#">Vehicle Loan</a></li>
@@ -68,7 +66,7 @@ include('header.php');?>
                     </div>
                     <div class="col d-flex justify-content-center">
                         <ul class="list-unstyled">
-                            <li><h6 class="dropdown-header av-font-v fw-bold">Insurance</h6></li>
+                            <li><h6 class="dropdown-header av-font-vi fw-bold">Insurance</h6></li>
                             <li><a class="dropdown-item av-font-ii" href="#">APY</a></li>
                             <li><a class="dropdown-item av-font-ii" href="#">PMJBY</a></li>
                             <li><a class="dropdown-item av-font-ii" href="#">PMSBY</a></li>
@@ -76,16 +74,14 @@ include('header.php');?>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="dropdown btn-group">
-            <button class="btn dropdown-toggle av-font-color-ii av-font-v fw-bold" type="button" id="p-link-btn1" data-bs-toggle="dropdown" aria-expanded="false">
-            <i class="fas fa-briefcase me-3"></i>Business<i class="fas fa-chevron-down ms-3 btn-arrow"></i>
+            <button class="btn dropdown-toggle av-font-color-ii av-font-iv fw-bold" type="button" id="p-link-btn3" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-briefcase p-link-before-icons me-3"></i>Business<i class="fas fa-chevron-down ms-3 btn-arrow"></i>
             </button>
-            <div class="dropdown-menu p-4" aria-labelledby="p-link-btn1">
+            <div class="dropdown-menu dropdown-menu-end p-4" aria-labelledby="p-link-btn3">
                 <div class="row">
                     <div class="col d-flex justify-content-center">
                         <ul class="list-unstyled">
-                            <li><h6 class="dropdown-header av-font-v fw-bold">Accounts & Deposits</h6></li>
+                            <li><h6 class="dropdown-header av-font-vi fw-bold">Accounts & Deposits</h6></li>
                             <li><a class="dropdown-item av-font-ii" href="#">Savings</a></li>
                             <li><a class="dropdown-item av-font-ii" href="#">Current</a></li>
                             <li><a class="dropdown-item av-font-ii" href="#">Recurring Deposit</a></li>
@@ -94,7 +90,7 @@ include('header.php');?>
                     </div>
                     <div class="col d-flex justify-content-center">
                         <ul class="list-unstyled">
-                            <li><h6 class="dropdown-header av-font-v fw-bold">Loans</h6></li>
+                            <li><h6 class="dropdown-header av-font-vi fw-bold">Loans</h6></li>
                             <li><a class="dropdown-item av-font-ii" href="#">Personal Loan</a></li>
                             <li><a class="dropdown-item av-font-ii" href="#">Housing Loan</a></li>
                             <li><a class="dropdown-item av-font-ii" href="#">Vehicle Loan</a></li>
@@ -104,7 +100,7 @@ include('header.php');?>
                     </div>
                     <div class="col d-flex justify-content-center">
                         <ul class="list-unstyled">
-                            <li><h6 class="dropdown-header av-font-v fw-bold">Insurance</h6></li>
+                            <li><h6 class="dropdown-header av-font-vi fw-bold">Insurance</h6></li>
                             <li><a class="dropdown-item av-font-ii" href="#">APY</a></li>
                             <li><a class="dropdown-item av-font-ii" href="#">PMJBY</a></li>
                             <li><a class="dropdown-item av-font-ii" href="#">PMSBY</a></li>
@@ -167,7 +163,7 @@ include('header.php');?>
         <div class="row">
             <div class="col-8 left-col">
                 <div class="row">
-                    <div class="col">
+                    <div class="col col-lg-3">
                         <div class="card text-center justify-content-center">
                             <a href="" class="text-decoration-none">
                                 <img src="./assets/svg/wallet.svg" class="card-img-top dark-icon align-self-center" alt="...">
@@ -179,7 +175,7 @@ include('header.php');?>
                             </a>                            
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col col-lg-3">
                         <div class="card text-center justify-content-center">
                             <a href="" class="text-decoration-none">
                                 <img src="./assets/svg/Rate.svg" class="card-img-top dark-icon align-self-center" alt="...">
@@ -191,7 +187,7 @@ include('header.php');?>
                             </a>                            
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col col-lg-3">
                         <div class="card text-center justify-content-center">
                             <a href="" class="text-decoration-none">
                                 <img src="./assets/svg/Smartphone.svg" class="card-img-top dark-icon align-self-center" alt="...">
@@ -203,7 +199,7 @@ include('header.php');?>
                             </a>                            
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col col-lg-3">
                         <div class="card text-center justify-content-center">
                             <a href="" class="text-decoration-none">
                                 <img src="./assets/svg/Branch.svg" class="card-img-top dark-icon align-self-center" alt="...">
@@ -217,11 +213,11 @@ include('header.php');?>
                     </div>
                 </div>
                 <div class="row calculators-row justify-content-center mt-5 py-4">
-                    <div class="col-4 align-self-center">
+                    <div class="col-5 col-xxl-4 align-self-center">
                         <img src="./assets/svg/calendar.svg" alt="" class="img-fluid me-3">
                         <a href="" class="btn av-font-ii fw-bold av-font-color-iii">EMI Calculator</a>
                     </div>
-                    <div class="col-4 align-self-center">
+                    <div class="col-5 col-xxl-4 align-self-center">
                         <img src="./assets/svg/calculator.svg" alt="" class="img-fluid me-3">
                         <a href="" class="btn av-font-ii fw-bold av-font-color-iii">Interest Calculator</a>
                     </div>
@@ -232,11 +228,11 @@ include('header.php');?>
                         <span class="av-font-vii align-middle fw-bold">Locate Us</span>
                     </div>
                     <div class="col-9 py-3 locations-col d-flex justify-content-around">
-                        <a href="" class="text-decoration-none av-font-color-iii">
+                        <a href="" class="text-decoration-none av-font-color-iii av-font-v">
                             <img src="./assets/svg/framed-branch.svg" alt="" class="img-fluid me-3">
                             Branch Locator
                         </a>
-                        <a href="" class="text-decoration-none av-font-color-iii">
+                        <a href="" class="text-decoration-none av-font-color-iii av-font-v">
                             <img src="./assets/svg/framed-atm.svg" alt="" class="img-fluid me-3">
                             ATM Locator
                         </a>                        

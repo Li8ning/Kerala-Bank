@@ -24,14 +24,14 @@
         <div class="container-fluid container-xxl px-xl-4 px-xxl-0">
             <div class="row">
                 <nav class="navbar navbar-expand-lg main-nav-menu">
-                    <div class="col-2 pt-3">
+                    <div class="col-2 pt-lg-3">
                         <a class="main-title navbar-brand me-auto me-lg-0" href="./">
                             <img src="./assets/img/kblogo-web2.png" alt="Kerala Bank" class="light-img img-fluid">
                             <img src="./assets/img/kblogo-web2.png" alt="Kerala Bank" class="dark-img img-fluid d-none">
                         </a>
                     </div>
-                    <!-- Top Bar -->
-                    <div class="col-10 align-self-start">
+                    <div class="col-10 align-self-lg-start">
+                        <!-- Top Bar -->
                         <div class="col-12">
                             <ul class="nav justify-content-end align-items-center av-font-color-i av-font-i">
                                 <li class="nav-item rounded-pill lang-btn">
@@ -52,40 +52,42 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-12">
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#av-main-nav" aria-controls="av-main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <!-- Top Bar End -->
+                        <!-- Desktop Main Nav bar -->
+                        <div class="col-12 d-none d-lg-block">
+                            <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#av-main-nav" aria-controls="av-main-nav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"><img src="./assets/svg/nav-toggle.svg" alt="navbar toggle"/></span>
                             </button>
-                            <div class="collapse navbar-collapse text-right" id="av-main-nav">
-                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+                            <div class="collapse navbar-collapse" id="av-main-nav">
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-end align-items-lg-center">
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="about-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                                        <a class="nav-link dropdown-toggle av-font-ii" href="#" id="about-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
                                         <ul class="dropdown-menu" aria-labelledby="about-dropdown">
-                                            <li><a class="dropdown-item" href="#">Vision & Mission</a></li>
-                                            <li><a class="dropdown-item" href="#">KB Overview</a></li>
-                                            <li><a class="dropdown-item" href="#">History of Kerala Bank</a></li>
-                                            <li><a class="dropdown-item" href="#">Shriram Committee Report</a></li>
+                                            <li><a class="dropdown-item av-font-ii" href="#">Vision & Mission</a></li>
+                                            <li><a class="dropdown-item av-font-ii" href="#">KB Overview</a></li>
+                                            <li><a class="dropdown-item av-font-ii" href="#">History of Kerala Bank</a></li>
+                                            <li><a class="dropdown-item av-font-ii" href="#">Shriram Committee Report</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Careers</a>
+                                        <a class="nav-link av-font-ii" href="#">Careers</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Media Room</a>
+                                        <a class="nav-link av-font-ii" href="#">Media Room</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">FAQ</a>
+                                        <a class="nav-link av-font-ii" href="#">FAQ</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Tenders</a>
+                                        <a class="nav-link av-font-ii" href="#">Tenders</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="">Contact Us</a>
+                                        <a class="nav-link av-font-ii" href="">Contact Us</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Employee Corner</a>
+                                        <a class="nav-link av-font-ii" href="#">Employee Corner</a>
                                     </li>
-                                    <li class="nav-item d-none d-lg-block">
+                                    <li class="nav-item">
                                         <form class="d-flex justify-content-center my-4">
                                             <div class="search">
                                                 <input class="search_input" type="text">
@@ -101,10 +103,50 @@
                                 </ul>
                             </div>
                         </div>
+                        <!-- Desktop Main Nav bar End-->
+                        <!-- OffCanvas Mobile Nav Bar -->
+                        <div class="col-12 d-lg-none">
+                            <button class="btn float-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#av-mob-main-nav" aria-controls="av-mob-main-nav">
+                                <img src="./assets/svg/nav-toggle.svg" alt="navbar toggle"/>
+                            </button>
+                            <div class="offcanvas offcanvas-start" tabindex="-1" id="av-mob-main-nav">
+                                <div class="offcanvas-body">
+                                    <button type="button" class="btn-close float-end text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    <ul class="list-unstyled outer-menu">
+                                        <li class="dropdown">
+                                            <a class="av-font-color-i text-decoration-none dropdown-toggle av-font-ii" href="#" id="about-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                                            <ul class="dropdown-menu" aria-labelledby="about-dropdown">
+                                                <li><a class="dropdown-item av-font-ii" href="#">Vision & Mission</a></li>
+                                                <li><a class="dropdown-item av-font-ii" href="#">KB Overview</a></li>
+                                                <li><a class="dropdown-item av-font-ii" href="#">History of Kerala Bank</a></li>
+                                                <li><a class="dropdown-item av-font-ii" href="#">Shriram Committee Report</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="">
+                                            <a class="av-font-color-i text-decoration-none av-font-ii" href="#">Careers</a>
+                                        </li>
+                                        <li class="">
+                                            <a class="av-font-color-i text-decoration-none av-font-ii" href="#">Media Room</a>
+                                        </li>
+                                        <li class="">
+                                            <a class="av-font-color-i text-decoration-none av-font-ii" href="#">FAQ</a>
+                                        </li>
+                                        <li class="">
+                                            <a class="av-font-color-i text-decoration-none av-font-ii" href="#">Tenders</a>
+                                        </li>
+                                        <li class="">
+                                            <a class="av-font-color-i text-decoration-none av-font-ii" href="">Contact Us</a>
+                                        </li>
+                                        <li class="">
+                                            <a class="av-font-color-i text-decoration-none av-font-ii" href="#">Employee Corner</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- OffCanvas Mobile Nav Bar End-->
                     </div>
-                    <!-- Top Bar End -->
                 </nav>
-                <!-- Main Logo -->
             </div>
         </div>
     </header>

@@ -151,7 +151,7 @@
                 </div>
             </div>
             <div class="row contact-us-row justify-content-end">
-                <div class="col-6 av-font-product-sans av-font-ii text-end">
+                <div class="col av-font-product-sans av-font-ii text-end">
                     <a class="btn av-font-ii" href="tel:0471 – 2547200"><i class="fas fa-phone-alt me-2"></i>0471 – 2547200</a>
                     <a class="btn av-font-ii" href="mailto:kscb@keralacobank.com"><i class="far fa-envelope me-2"></i> kscb@keralacobank.com</a>
                     <a class="btn social-btn"><img src="./assets/svg/fb.svg" alt=""></a>
@@ -179,5 +179,6 @@
 
 <script src="./assets/js/bootstrap.bundle.min.js"></script>
 <script src="./assets/js/style.js"></script>
+<!-- <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script> -->
 </body>
 </html>

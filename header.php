@@ -55,12 +55,12 @@
                         <!-- Top Bar End -->
                         <!-- Desktop Main Nav bar -->
                         <div class="col-12 d-none d-lg-block">
-                            <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#av-main-nav" aria-controls="av-main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                            <!-- <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#av-main-nav" aria-controls="av-main-nav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"><img src="./assets/svg/nav-toggle.svg" alt="navbar toggle"/></span>
-                            </button>
+                            </button> -->
                             <div class="collapse navbar-collapse" id="av-main-nav">
                                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-end align-items-lg-center">
-                                    <li class="nav-item dropdown">
+                                    <li class="nav-item menu-links dropdown">
                                         <a class="nav-link dropdown-toggle av-font-ii" href="#" id="about-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
                                         <ul class="dropdown-menu" aria-labelledby="about-dropdown">
                                             <li><a class="dropdown-item av-font-ii" href="#">Vision & Mission</a></li>
@@ -95,9 +95,58 @@
                                             </div>
                                         </form>
                                     </li>
-                                    <li class="nav-item ms-2">
-                                        <button class="btn av-badge"><i class="far fa-bell"></i></button>
+                                    <li class="nav-item ms-2 notification dropdown">
+                                        <button class="btn av-badge dropdown-toggle" aria-expanded="false" id="kb-notification" data-bs-toggle="dropdown" data-bs-reference="parent" type="button"><i class="far fa-bell"></i></button>
+                                        <ul class="dropdown-menu dropdown-menu-end mt-3" aria-labelledby="kb-notification">
+                                            <li class="dropdown-item py-3">
+                                                <a href="" class="text-decoration-none unread-notification av-font-i d-flex text-wrap">
+                                                    <img src="./assets/svg/nav-toggle.svg" alt="" width="23px">
+                                                    <span class="ms-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est id suspendisse ac nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est id suspendisse ac nulla.</span>                                                    
+                                                </a>                                                
+                                            </li>
+                                            <li class="ps-0"><hr class="dropdown-divider"></li>
+                                            <li class="dropdown-item py-3">
+                                                <a href="" class="text-decoration-none unread-notification av-font-i d-flex text-wrap">
+                                                    <img src="./assets/svg/nav-toggle.svg" alt="" width="23px">
+                                                    <span class="ms-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est id suspendisse ac nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est id suspendisse ac nulla.</span>                                                    
+                                                </a>                                                
+                                            </li>
+                                            <li class="ps-0"><hr class="dropdown-divider"></li>
+                                            <li class="dropdown-item py-3">
+                                                <a href="" class="text-decoration-none unread-notification av-font-i d-flex text-wrap">
+                                                    <img src="./assets/svg/nav-toggle.svg" alt="" width="23px">
+                                                    <span class="ms-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est id suspendisse ac nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est id suspendisse ac nulla.</span>                                                    
+                                                </a>                                                
+                                            </li>
+                                            <li class="ps-0"><hr class="dropdown-divider"></li>
+                                            <li class="dropdown-item py-3">
+                                                <a href="" class="text-decoration-none read-notification av-font-i d-flex text-wrap">
+                                                    <img src="./assets/svg/notification-list-icon-gray.svg" alt="" width="23px">
+                                                    <span class="ms-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est id suspendisse ac nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est id suspendisse ac nulla.</span>                                                    
+                                                </a>                                                
+                                            </li>
+                                            <li class="ps-0"><hr class="dropdown-divider"></li>
+                                            <li class="dropdown-item py-3">
+                                                <a href="" class="text-decoration-none read-notification av-font-i d-flex text-wrap">
+                                                    <img src="./assets/svg/notification-list-icon-gray.svg" alt="" width="23px">
+                                                    <span class="ms-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est id suspendisse ac nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est id suspendisse ac nulla.</span>                                                    
+                                                </a>                                                
+                                            </li>
+                                            <li class="ps-0"><hr class="dropdown-divider"></li>
+                                            <li class="dropdown-item py-3">
+                                                <a href="" class="text-decoration-none read-notification av-font-i d-flex text-wrap">
+                                                    <img src="./assets/svg/notification-list-icon-gray.svg" alt="" width="23px">
+                                                    <span class="ms-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est id suspendisse ac nulla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est id suspendisse ac nulla.</span>                                                    
+                                                </a>                                                
+                                            </li>
+                                            <li class="ps-0"><hr class="dropdown-divider"></li>
+                                            <li class="text-center ps-0 py-2"><a href="" class="text-decoration-none fw-bold av-font-ii text-center av-font-color-iv all-notification">See All</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item ms-1">
                                         <button class="btn"><i class="fas fa-phone-alt"></i></button>
+                                    </li>
+                                    <li class="nav-item ms-1">
                                         <button class="btn"><i class="far fa-envelope"></i></button>
                                     </li>
                                 </ul>

@@ -9,8 +9,8 @@ include('header.php');?>
             <button class="btn dropdown-toggle av-font-color-ii av-font-iv fw-bold" type="button" id="p-link-btn1" data-bs-toggle="dropdown" aria-expanded="false">
             <i class="fas fa-user p-link-before-icons me-3"></i>Personal<i class="fas fa-chevron-down ms-3 btn-arrow"></i>
             </button>
-            <div class="dropdown-menu p-4" aria-labelledby="p-link-btn1">
-                <div class="row">
+            <div class="dropdown-menu mt-1" aria-labelledby="p-link-btn1">
+                <div class="row p-4">
                     <div class="col d-flex justify-content-center">
                         <ul class="list-unstyled">
                             <li><h6 class="dropdown-header av-font-vi fw-bold">Accounts & Deposits</h6></li>
@@ -43,8 +43,8 @@ include('header.php');?>
             <button class="btn dropdown-toggle av-font-color-ii av-font-iv fw-bold" type="button" id="p-link-btn2" data-bs-toggle="dropdown" aria-expanded="false">
             <i class="fas fa-seedling p-link-before-icons me-3"></i>PACS<i class="fas fa-chevron-down ms-3 btn-arrow"></i>
             </button>
-            <div class="dropdown-menu p-4" aria-labelledby="p-link-btn2">
-                <div class="row">
+            <div class="dropdown-menu mt-1" aria-labelledby="p-link-btn2">
+                <div class="row p-4">
                     <div class="col d-flex justify-content-center">
                         <ul class="list-unstyled">
                             <li><h6 class="dropdown-header av-font-vi fw-bold">Accounts & Deposits</h6></li>
@@ -77,8 +77,8 @@ include('header.php');?>
             <button class="btn dropdown-toggle av-font-color-ii av-font-iv fw-bold" type="button" id="p-link-btn3" data-bs-toggle="dropdown" aria-expanded="false">
             <i class="fas fa-briefcase p-link-before-icons me-3"></i>Business<i class="fas fa-chevron-down ms-3 btn-arrow"></i>
             </button>
-            <div class="dropdown-menu dropdown-menu-end p-4" aria-labelledby="p-link-btn3">
-                <div class="row">
+            <div class="dropdown-menu mt-1" aria-labelledby="p-link-btn3">
+                <div class="row p-4">
                     <div class="col d-flex justify-content-center">
                         <ul class="list-unstyled">
                             <li><h6 class="dropdown-header av-font-vi fw-bold">Accounts & Deposits</h6></li>
@@ -165,7 +165,7 @@ include('header.php');?>
                 <div class="row">
                     <div class="col col-lg-3">
                         <div class="card text-center justify-content-center">
-                            <a href="" class="text-decoration-none">
+                            <a href="" class="text-decoration-none stretched-link">
                                 <img src="./assets/svg/wallet.svg" class="card-img-top dark-icon align-self-center" alt="...">
                                 <img src="./assets/svg/wallet-white.svg" class="card-img-top white-icon align-self-center" alt="...">
                                 <div class="card-body pt-2">
@@ -177,47 +177,45 @@ include('header.php');?>
                     </div>
                     <div class="col col-lg-3">
                         <div class="card text-center justify-content-center">
-                            <a href="" class="text-decoration-none">
+                            <a href="" class="text-decoration-none stretched-link">
                                 <img src="./assets/svg/Rate.svg" class="card-img-top dark-icon align-self-center" alt="...">
                                 <img src="./assets/svg/Rate-white.svg" class="card-img-top white-icon align-self-center" alt="...">
                                 <div class="card-body pt-2">
                                     <h5 class="card-title fw-bold av-font-ii">Rate</h5>
-                                    <p class="card-text av-font-i">Cards,Money Transfer and Other Services</p>
                                 </div>
                             </a>                            
                         </div>
                     </div>
                     <div class="col col-lg-3">
                         <div class="card text-center justify-content-center">
-                            <a href="" class="text-decoration-none">
+                            <a href="" class="text-decoration-none stretched-link">
                                 <img src="./assets/svg/Smartphone.svg" class="card-img-top dark-icon align-self-center" alt="...">
                                 <img src="./assets/svg/smartphone-white.svg" class="card-img-top white-icon align-self-center" alt="...">
                                 <div class="card-body pt-2">
                                     <h5 class="card-title fw-bold av-font-ii">Ways to Bank</h5>
-                                    <p class="card-text av-font-i">Cards,Money Transfer and Other Services</p>
+                                    <p class="card-text av-font-i">Online, Mobile, Door Step etc..</p>
                                 </div>
                             </a>                            
                         </div>
                     </div>
                     <div class="col col-lg-3">
                         <div class="card text-center justify-content-center">
-                            <a href="" class="text-decoration-none">
+                            <a href="" class="text-decoration-none stretched-link">
                                 <img src="./assets/svg/Branch.svg" class="card-img-top dark-icon align-self-center" alt="...">
                                 <img src="./assets/svg/Branch-white.svg" class="card-img-top white-icon align-self-center" alt="...">
                                 <div class="card-body pt-2">
                                     <h5 class="card-title fw-bold av-font-ii">Branches</h5>
-                                    <p class="card-text av-font-i">Cards,Money Transfer and Other Services</p>
                                 </div>
                             </a>                            
                         </div>
                     </div>
                 </div>
                 <div class="row calculators-row justify-content-center mt-5 py-4">
-                    <div class="col-5 col-xxl-4 align-self-center">
+                    <div class="col col-lg-6 col-xxl-5 text-center align-self-center">
                         <img src="./assets/svg/calendar.svg" alt="" class="img-fluid me-3">
                         <a href="" class="btn av-font-ii fw-bold av-font-color-iii">EMI Calculator</a>
                     </div>
-                    <div class="col-5 col-xxl-4 align-self-center">
+                    <div class="col col-lg-6 col-xxl-5 text-center align-self-center">
                         <img src="./assets/svg/calculator.svg" alt="" class="img-fluid me-3">
                         <a href="" class="btn av-font-ii fw-bold av-font-color-iii">Interest Calculator</a>
                     </div>
@@ -227,12 +225,12 @@ include('header.php');?>
                         <img src="./assets/svg/location.svg" alt="" class="img-fluid me-2">
                         <span class="av-font-vii align-middle fw-bold">Locate Us</span>
                     </div>
-                    <div class="col-9 py-3 locations-col d-flex justify-content-around">
-                        <a href="" class="text-decoration-none av-font-color-iii av-font-v">
+                    <div class="col-9 py-2 locations-col d-flex justify-content-around">
+                        <a href="" class="text-decoration-none btn px-4 av-font-color-iii av-font-v">
                             <img src="./assets/svg/framed-branch.svg" alt="" class="img-fluid me-3">
                             Branch Locator
                         </a>
-                        <a href="" class="text-decoration-none av-font-color-iii av-font-v">
+                        <a href="" class="text-decoration-none btn px-4 av-font-color-iii av-font-v">
                             <img src="./assets/svg/framed-atm.svg" alt="" class="img-fluid me-3">
                             ATM Locator
                         </a>                        
@@ -305,25 +303,25 @@ include('header.php');?>
                     <div class="col">
                         <ul class="list-unstyled">
                             <li class="mb-4">
-                                <a href="" class="text-decoration-none d-flex align-items-center">
+                                <a href="" class="text-decoration-none btn d-flex align-items-center">
                                     <img src="./assets/svg/customer care.svg" alt="" class="img-fluid me-4">
                                     <h6 class="m-0 av-font-iv">Customer Care</h6>
                                 </a>
                             </li>
                             <li class="mb-4">
-                                <a href="" class="text-decoration-none d-flex align-items-center">
+                                <a href="" class="text-decoration-none btn d-flex align-items-center">
                                     <img src="./assets/svg/block_card.svg" alt="" class="img-fluid me-4">
                                     <h6 class="m-0 av-font-iv">Block Card</h6>
                                 </a>
                             </li>
                             <li class="mb-4">
-                                <a href="" class="text-decoration-none d-flex align-items-center">
+                                <a href="" class="text-decoration-none btn d-flex align-items-center">
                                     <img src="./assets/svg/fraud.svg" alt="" class="img-fluid me-4">
                                     <h6 class="m-0 av-font-iv">Report Fraud</h6>
                                 </a>
                             </li>
                             <li class="mb-4">
-                                <a href="" class="text-decoration-none d-flex align-items-center">
+                                <a href="" class="text-decoration-none btn d-flex align-items-center">
                                     <img src="./assets/svg/lost_stolen.svg" alt="" class="img-fluid me-4">
                                     <h6 class="m-0 av-font-iv">Report lost or stolen card</h6>
                                 </a>
@@ -370,13 +368,13 @@ include('header.php');?>
                     <div class="col">
                         <ul class="list-unstyled">
                             <li class="mb-4">
-                                <a href="" class="text-decoration-none d-flex align-items-center">
+                                <a href="" class="text-decoration-none btn d-flex align-items-center">
                                     <img src="./assets/svg/accnt_protection.svg" alt="" class="img-fluid me-4">
                                     <h6 class="m-0 av-font-iv">Protecting Your Account</h6>
                                 </a>
                             </li>
                             <li class="mb-4">
-                                <a href="" class="text-decoration-none d-flex align-items-center">
+                                <a href="" class="text-decoration-none btn d-flex align-items-center">
                                     <img src="./assets/svg/beware_fraud.svg" alt="" class="img-fluid me-4">
                                     <h6 class="m-0 av-font-iv">Beware of Fraud</h6>
                                 </a>

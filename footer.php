@@ -151,9 +151,9 @@
                 </div>
             </div>
             <div class="row contact-us-row justify-content-end">
-                <div class="col av-font-product-sans av-font-ii text-end">
-                    <a class="btn av-font-ii" href="tel:0471 – 2547200"><i class="fas fa-phone-alt me-2"></i>0471 – 2547200</a>
-                    <a class="btn av-font-ii" href="mailto:kscb@keralacobank.com"><i class="far fa-envelope me-2"></i> kscb@keralacobank.com</a>
+                <div class="col-lg-8 col-xl-7 av-font-product-sans av-font-ii text-end">
+                    <a class="btn av-font-ii contact-btn" href="tel:0471 – 2547200"><i class="fas fa-phone-alt me-2"></i>0471 – 2547200</a>
+                    <a class="btn av-font-ii contact-btn" href="mailto:kscb@keralacobank.com"><i class="far fa-envelope me-2"></i> kscb@keralacobank.com</a>
                     <a class="btn social-btn"><img src="./assets/svg/fb.svg" alt=""></a>
                     <a class="btn social-btn"><img src="./assets/svg/instagram.svg" alt=""></a>
                     <a class="btn social-btn"><img src="./assets/svg/twitter.svg" alt=""></a>

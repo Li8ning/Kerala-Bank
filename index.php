@@ -258,7 +258,7 @@ include('header.php');?>
                         </div>
                     </div>
                 </div>
-                <div class="row calculators-row justify-content-center mt-lg-5 py-5 py-md-4">
+                <div class="row calculators-row justify-content-lg-center mt-lg-5 py-5 py-md-4">
                     <div class="col-12 col-lg-6 col-xxl-5 mb-5 mb-md-3 mb-lg-0 ms-md-5 ms-lg-0 text-md-start text-lg-center align-self-center">
                         <img src="./assets/svg/calendar.svg" alt="" class="img-fluid me-lg-3 pb-2">
                         <a href="" class="btn av-font-ii fw-bold av-font-color-iii">EMI Calculator</a>

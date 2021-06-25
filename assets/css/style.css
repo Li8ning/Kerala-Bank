@@ -773,6 +773,10 @@ footer .bottom-section{
     .services-section .card .card-text{
         font-size: 0.75rem;
     }
+    .services-section .locate-row .locations-col{
+        display: grid;
+        justify-content: center;
+    }
     .activities-section .media-col .row-content div{
         padding-right: 25px;
     }
@@ -924,10 +928,7 @@ footer .bottom-section{
     .services-section .card{
         height: auto;
     }
-}
-
-
-/* Min Media Quries */
-@media (min-width:1200px){
-    
+    .services-section .card .card-text{
+        font-size: 0.59rem;
+    }
 }

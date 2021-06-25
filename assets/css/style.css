@@ -770,6 +770,9 @@ footer .bottom-section{
     .primary-links button{
         width: 196px;
     }
+    .services-section .card .card-text{
+        font-size: 0.75rem;
+    }
     .activities-section .media-col .row-content div{
         padding-right: 25px;
     }

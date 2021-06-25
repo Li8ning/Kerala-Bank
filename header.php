@@ -24,13 +24,13 @@
         <div class="container-fluid container-xxl px-xl-4 px-xxl-0">
             <div class="row">
                 <nav class="navbar navbar-expand-lg main-nav-menu">
-                    <div class="col-2 pt-lg-3">
+                    <div class="col-3 col-sm-2 pt-lg-3 site-logo">
                         <a class="main-title navbar-brand me-auto me-lg-0" href="./">
                             <img src="./assets/img/kblogo-web2.png" alt="Kerala Bank" class="light-img img-fluid">
                             <img src="./assets/img/kblogo-web2.png" alt="Kerala Bank" class="dark-img img-fluid d-none">
                         </a>
                     </div>
-                    <div class="col-10 align-self-lg-start">
+                    <div class="col-8 col-sm-10 align-self-lg-start">
                         <!-- Top Bar -->
                         <div class="col-12">
                             <ul class="nav justify-content-end align-items-center av-font-color-i av-font-i">
@@ -55,9 +55,6 @@
                         <!-- Top Bar End -->
                         <!-- Desktop Main Nav bar -->
                         <div class="col-12 d-none d-lg-block">
-                            <!-- <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#av-main-nav" aria-controls="av-main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"><img src="./assets/svg/nav-toggle.svg" alt="navbar toggle"/></span>
-                            </button> -->
                             <div class="collapse navbar-collapse" id="av-main-nav">
                                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-end align-items-lg-center">
                                     <li class="nav-item menu-links dropdown">
@@ -154,44 +151,116 @@
                         </div>
                         <!-- Desktop Main Nav bar End-->
                         <!-- OffCanvas Mobile Nav Bar -->
-                        <div class="col-12 d-lg-none">
-                            <button class="btn float-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#av-mob-main-nav" aria-controls="av-mob-main-nav">
+                        <div class="col-12 mt-3 mob-nav d-flex align-items-center justify-content-end d-lg-none">
+                            <form class="d-flex justify-content-center me-1 me-sm-3">
+                                <div class="search">
+                                    <input class="search_input" type="text">
+                                    <a class="search_icon"><i class="fa fa-search"></i></a>
+                                </div>
+                            </form>
+                            <a class="btn av-badge mob-noti"><i class="far fa-bell"></i></a>                       
+                            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#av-mob-main-nav" aria-controls="av-mob-main-nav">
                                 <img src="./assets/svg/nav-toggle.svg" alt="navbar toggle"/>
                             </button>
-                            <div class="offcanvas offcanvas-start" tabindex="-1" id="av-mob-main-nav">
-                                <div class="offcanvas-body">
-                                    <button type="button" class="btn-close float-end text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                    <ul class="list-unstyled outer-menu">
-                                        <li class="dropdown">
-                                            <a class="av-font-color-i text-decoration-none dropdown-toggle av-font-ii" href="#" id="about-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
-                                            <ul class="dropdown-menu" aria-labelledby="about-dropdown">
-                                                <li><a class="dropdown-item av-font-ii" href="#">Vision & Mission</a></li>
-                                                <li><a class="dropdown-item av-font-ii" href="#">KB Overview</a></li>
-                                                <li><a class="dropdown-item av-font-ii" href="#">History of Kerala Bank</a></li>
-                                                <li><a class="dropdown-item av-font-ii" href="#">Shriram Committee Report</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="">
-                                            <a class="av-font-color-i text-decoration-none av-font-ii" href="#">Careers</a>
-                                        </li>
-                                        <li class="">
-                                            <a class="av-font-color-i text-decoration-none av-font-ii" href="#">Media Room</a>
-                                        </li>
-                                        <li class="">
-                                            <a class="av-font-color-i text-decoration-none av-font-ii" href="#">FAQ</a>
-                                        </li>
-                                        <li class="">
-                                            <a class="av-font-color-i text-decoration-none av-font-ii" href="#">Tenders</a>
-                                        </li>
-                                        <li class="">
-                                            <a class="av-font-color-i text-decoration-none av-font-ii" href="">Contact Us</a>
-                                        </li>
-                                        <li class="">
-                                            <a class="av-font-color-i text-decoration-none av-font-ii" href="#">Employee Corner</a>
-                                        </li>
-                                    </ul>
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="av-mob-main-nav">
+                                <div class="offcanvas-header pt-4">
+                                    <button type="button" class="btn rounded-circle text-reset ms-auto" data-bs-dismiss="offcanvas"><i class="fas fa-times"></i></button>
                                 </div>
-                            </div>
+                                <div class="offcanvas-body p-0 pt-4">
+                                    <div class="accordion" id="kb-accordion-mob">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="menu-heading-1">
+                                            <a href="./" class="accordion-button text-decoration-none av-font-ii av-font-color-iii collapsed" data-bs-target="#menu-collapse-1">
+                                               About Us
+                                            </a>
+                                            </h2>
+                                            <div id="menu-collapse-1" class="accordion-collapse collapse" aria-labelledby="menu-heading-1" data-bs-parent="#kb-accordion-mob">
+                                                <div class="accordion-body">
+                                                    <ul class="list-unstyled ms-3 mb-0">
+                                                        <li class="pt-2"><a href="" class="av-font-color-v av-font-ii text-decoration-none">Vision & Mission</a></li>
+                                                        <li class="pt-2"><a href="" class="av-font-color-v av-font-ii text-decoration-none">KB Overview</a></li>
+                                                        <li class="pt-2"><a href="" class="av-font-color-v av-font-ii text-decoration-none">History of Kerala Bank</a></li>
+                                                        <li class="pt-2"><a href="" class="av-font-color-v av-font-ii text-decoration-none">Shriram Committee Report</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="menu-heading-2">
+                                                <a href="./" class="accordion-button text-decoration-none av-font-ii av-font-color-iii collapsed" data-bs-target="#menu-collapse-2">
+                                                    Careers
+                                                </a>
+                                            </h2>
+                                            <div id="menu-collapse-2" class="accordion-collapse collapse" aria-labelledby="menu-heading-2" data-bs-parent="#kb-accordion-mob">
+                                            <!-- <div class="accordion-body"></div> -->
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="menu-heading-3">
+                                                <a href="./" class="accordion-button text-decoration-none av-font-ii av-font-color-iii collapsed" data-bs-target="#menu-collapse-3">
+                                                Media Room
+                                                </a>
+                                            </h2>
+                                            <div id="menu-collapse-3" class="accordion-collapse collapse" aria-labelledby="menu-heading-3" data-bs-parent="#kb-accordion-mob">
+                                            <!-- <div class="accordion-body"></div> -->
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="menu-heading-4">
+                                            <a href="./" class="accordion-button text-decoration-none av-font-ii av-font-color-iii collapsed" data-bs-target="#menu-collapse-4">
+                                               FAQ
+                                            </a>
+                                            </h2>
+                                            <div id="menu-collapse-4" class="accordion-collapse collapse" aria-labelledby="menu-heading-4" data-bs-parent="#kb-accordion-mob">
+                                            <!-- <div class="accordion-body"></div> -->
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="menu-heading-5">
+                                            <a href="./" class="accordion-button text-decoration-none av-font-ii av-font-color-iii collapsed" data-bs-target="#menu-collapse-5">
+                                               Tenders
+                                            </a>
+                                            </h2>
+                                            <div id="menu-collapse-5" class="accordion-collapse collapse" aria-labelledby="menu-heading-5" data-bs-parent="#kb-accordion-mob">
+                                            <!-- <div class="accordion-body"></div> -->
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="menu-heading-6">
+                                            <a href="./" class="accordion-button text-decoration-none av-font-ii av-font-color-iii collapsed" data-bs-target="#menu-collapse-6">
+                                               Contact Us
+                                            </a>
+                                            </h2>
+                                            <div id="menu-collapse-6" class="accordion-collapse collapse" aria-labelledby="menu-heading-6" data-bs-parent="#kb-accordion-mob">
+                                            <!-- <div class="accordion-body"></div> -->
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="menu-heading-7">
+                                            <a href="./" class="accordion-button text-decoration-none av-font-ii av-font-color-iii collapsed" data-bs-target="#menu-collapse-7">
+                                               Employee Corner
+                                            </a>
+                                            </h2>
+                                            <div id="menu-collapse-7" class="accordion-collapse collapse" aria-labelledby="menu-heading-7" data-bs-parent="#kb-accordion-mob">
+                                            <!-- <div class="accordion-body"></div> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="offcanvas-body-bottom ms-3 mt-3">
+                                        <div class="col-12 contact-col mb-4">
+                                            <button class="btn"><i class="fas fa-phone-alt"></i></button>
+                                            <button class="btn"><i class="far fa-envelope"></i></button>
+                                        </div>
+                                        <div class="col-12 social-col mb-4">
+                                            <a class="btn social-btn me-1"><img src="./assets/svg/fb.svg" alt=""></a>
+                                            <a class="btn social-btn me-1"><img src="./assets/svg/instagram.svg" alt=""></a>
+                                            <a class="btn social-btn me-1"><img src="./assets/svg/twitter.svg" alt=""></a>
+                                            <a class="btn social-btn me-1"><img src="./assets/svg/youtube.svg" alt=""></a>
+                                            <a class="btn social-btn"><img src="./assets/svg/linkedin.svg" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                            
                         </div>
                         <!-- OffCanvas Mobile Nav Bar End-->
                     </div>

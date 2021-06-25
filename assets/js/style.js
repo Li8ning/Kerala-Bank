@@ -95,4 +95,21 @@ $(document).ready(function(){
         });
     }
 
+    // Accordion Functionality for mob menu
+    $('.accordion-button').click(function(e){
+        if(!$(this).hasClass('active')) {
+            $('.accordion-button').removeClass('active').addClass('collapsed');
+            $(this).addClass('active').removeClass('collapsed');
+            $('.accordion-collapse').collapse('hide');
+            $($(this).data('bs-target')).collapse('show');
+            e.preventDefault();
+        } else {
+            return true;
+        }
+    });
+    $('#av-mob-main-nav').on('hidden.bs.offcanvas',function(){
+        $('.accordion-button').removeClass('active').addClass('collapsed');
+        $('.accordion-collapse').collapse('hide');
+    });
+
 });

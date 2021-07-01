@@ -58,6 +58,61 @@ a:hover{
     font-size: 2.8125rem;
 }
 
+/* Dark Mode */
+body.dark,.services-section .locate-row .locations-col a.dark:hover{
+    background: #2B3648;
+}
+header.dark,.primary-links button.dark,.services-section .card.dark,.services-section .sidebar.dark,.services-section .calculators-row.dark,.services-section .locate-row .locations-col.dark,.activities-section .support-col .row-content.dark a:hover, .activities-section .security-col .row-content.dark a:hover,.loan-section .newsletter-col.dark,footer .top-section.dark{
+    background: #212936;
+}
+.label.dark{
+    background: #C24848;
+}
+.label .ball.dark{
+    background: #E5E5E5;
+}
+.services-section .card.dark:hover{
+    background: transparent;
+}
+.av-font-func button.dark,.services-section .card.dark:hover .card-title{
+    color: #C24848;
+}
+.main-nav-menu #av-main-nav a.nav-link.dark,.main-nav-menu #av-main-nav .nav-item form .search_input.dark, .mob-nav form .search_input.dark,.hero-section .left-col h1.dark,.activities-section .media-col.dark a:hover,footer .top-section.dark .col-menu-links li a:hover,.services-section .sidebar.dark .schemes:hover .scheme-details,.services-section .sidebar.dark .row-title{
+    color: white;
+}
+.main-nav-menu #av-main-nav .nav-item form .search.dark, .mob-nav form .search.dark,.primary-links button.dark{
+    border: 1px solid #8997B1;
+}
+.services-section .card.dark{
+    border: 2px solid #8997B1;
+}
+.primary-links button.dark,.hero-section .left-col p.dark,.services-section .card.dark .card-title,.services-section .card.dark .card-text,.services-section .locate-row .row-title span.dark,.services-section .locate-row .locations-col a.dark,.activities-section .row-title.dark h4,.activities-section .row-content.dark h6,.loan-section .newsletter-col.dark .col-title,footer .top-section.dark .col-heading,footer .bottom-section.dark,.services-section .sidebar.dark .schemes .scheme-details{
+    color: #AFBDD1;
+}
+.services-section .card.dark .services-icon path,.services-section .card.dark:hover .services-icon path{
+    fill: #AFBDD1;
+}
+.services-section .card.dark .card-img-top path{
+    fill: #8997B1;
+}
+.services-section .card.dark:hover .card-img-top path,.services-section .calculators-row.dark svg #calendar #calendar-outer path,.services-section .calculators-row.dark svg #calculator #minus,.services-section .calculators-row.dark svg #calculator #outer-body,.services-section .calculators-row.dark svg #calculator #equal-to path,.services-section .calculators-row.dark svg #calculator #multiply{
+    fill: #C24848;
+}
+.services-section .more-service-link a.dark,.activities-section .media-col.dark p{
+    color: #56657f;
+}
+.activities-section .row-title.dark span,.activities-section .media-col.dark a,.loan-section .newsletter-col.dark .sub-title,footer .top-section.dark .col-menu-links li a{
+    color: #8997b1;
+}
+.activities-section .row-title.dark{
+    border-bottom: 1px solid #C24848;
+}
+footer .bottom-section.dark{
+    background: #171e28;
+}
+/* Dark Mode End*/
+
+
 /* Header */
 header{
     box-shadow: 0px 11px 16px -17px rgba(51, 51, 51, 0.3);
@@ -76,7 +131,7 @@ header{
     border-right: 0.5px solid #F7A126;
 }
 /* Font funcionalitu Inc dec End */
-/* Dark Mode */
+/* Dark Mode Activator */
 .checkbox {
     opacity: 0;
     position: absolute;
@@ -113,7 +168,7 @@ header{
 .checkbox:checked+.label .ball {
     transform: translateX(26px);
 }
-/* Dark Mode End */
+/* Dark Mode activator End */
 /* Top Bar End */
 /* Desktop Main Nav */
 .main-nav-menu .site-logo{
@@ -341,6 +396,9 @@ section,footer{
 .primary-links button i{
     font-size: 20px;
 }
+.primary-links button.dark .p-link-before-icons{
+    color: #c24848;
+}
 .primary-links .dropdown-menu{
     background: #C24848;
     border-radius: 12px;
@@ -387,7 +445,7 @@ section,footer{
     background: #F36767;
     color: #FFFFFF;
 }
-.hero-section .right-col .carousel{
+.hero-section .right-col .carousel .carousel-inner{
     border-radius: 18px;
 }
 .hero-section .right-col .carousel .slider-controls{
@@ -423,10 +481,12 @@ section,footer{
     box-sizing: border-box;
     border-radius: 16px;
     min-height: 160px;
-    background-image: url('../svg/services-bg-icon-1.svg');
-    background-repeat: no-repeat;
-    background-position: 90% 7%;
     padding: 0 30px;
+}
+.services-section .card .services-icon{
+    position: absolute;
+    right: 15px;
+    top: 10px;
 }
 .services-section .card a{
     color: #C24848;
@@ -434,16 +494,8 @@ section,footer{
 .services-section .card .card-title{
     margin-bottom: 0;
 }
-.services-section .card img{
+.services-section .card .card-img-top{
     width: 34%;
-}
-.services-section .card .dark-icon{
-    visibility: visible;
-    max-width: 34%;
-}
-.services-section .card .white-icon{
-    visibility: hidden;
-    max-width: 0;
 }
 .services-section .card .card-body{
     flex: inherit;
@@ -459,9 +511,11 @@ section,footer{
 }
 .services-section .card:hover{
     background: #C24848;
-    background-image: url('../svg/services-bg-icon-2.svg');
-    background-repeat: no-repeat;
-    background-position: 90% 7%;
+    transition: all 0.5s;
+}
+.services-section .card:hover .services-icon path{
+    transition: all 0.3s;
+    fill: #DE500D;
 }
 .services-section .card:hover a{
     color: #FFFFFF;
@@ -474,13 +528,9 @@ section,footer{
     padding-bottom: 10px;
     max-height: unset;
 }
-.services-section .card:hover .white-icon{
-    visibility: visible;
-    max-width: unset;
-}
-.services-section .card:hover .dark-icon{
-    visibility: hidden;
-    max-width: 0;
+.services-section .card:hover .card-img-top path{
+    fill: white;
+    transition: all 0.5s;
 }
 .services-section .calculators-row{
     background: #FFF9F0;
@@ -590,10 +640,10 @@ section,footer{
 .activities-section .support-col .row-content a,.activities-section .security-col .row-content a{
     height: 60px;
     max-height: 60px;
+    border-radius: 13px;
 }
 .activities-section .support-col .row-content a:hover,.activities-section .security-col .row-content a:hover{
     background: #FFF9F0;
-    border-radius: 13px;
     transition: all 0.5s;
 }
 /* Activities Section End*/
@@ -769,6 +819,13 @@ footer .bottom-section{
     }
     .primary-links button{
         width: 196px;
+    }
+    .hero-section .right-col{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .hero-section .right-col .carousel .carousel-inner{
+        border-radius: 0;
     }
     .services-section .card .card-text{
         font-size: 0.75rem;

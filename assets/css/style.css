@@ -22,7 +22,7 @@ a:hover{
     color: #801C1C;
 }
 .av-font-color-ii{
-    color: #C24848;
+    color: #CB3F3F;
 }
 .av-font-color-iii{
     color: #FFFFFF;
@@ -66,7 +66,7 @@ header.dark,.primary-links button.dark,.services-section .card.dark,.services-se
     background: #212936;
 }
 .label.dark{
-    background: #C24848;
+    background: #CB3F3F;
 }
 .label .ball.dark{
     background: #E5E5E5;
@@ -75,7 +75,7 @@ header.dark,.primary-links button.dark,.services-section .card.dark,.services-se
     background: transparent;
 }
 .av-font-func button.dark,.services-section .card.dark:hover .card-title{
-    color: #C24848;
+    color: #CB3F3F;
 }
 .main-nav-menu #av-main-nav a.nav-link.dark,.main-nav-menu #av-main-nav .nav-item form .search_input.dark, .mob-nav form .search_input.dark,.hero-section .left-col h1.dark,.activities-section .media-col.dark a:hover,footer .top-section.dark .col-menu-links li a:hover,.services-section .sidebar.dark .schemes:hover .scheme-details,.services-section .sidebar.dark .row-title{
     color: white;
@@ -96,7 +96,7 @@ header.dark,.primary-links button.dark,.services-section .card.dark,.services-se
     fill: #8997B1;
 }
 .services-section .card.dark:hover .card-img-top path,.services-section .calculators-row.dark svg #calendar #calendar-outer path,.services-section .calculators-row.dark svg #calculator #minus,.services-section .calculators-row.dark svg #calculator #outer-body,.services-section .calculators-row.dark svg #calculator #equal-to path,.services-section .calculators-row.dark svg #calculator #multiply{
-    fill: #C24848;
+    fill: #CB3F3F;
 }
 .services-section .more-service-link a.dark,.activities-section .media-col.dark p{
     color: #56657f;
@@ -105,7 +105,7 @@ header.dark,.primary-links button.dark,.services-section .card.dark,.services-se
     color: #8997b1;
 }
 .activities-section .row-title.dark{
-    border-bottom: 1px solid #C24848;
+    border-bottom: 1px solid #CB3F3F;
 }
 footer .bottom-section.dark{
     background: #171e28;
@@ -207,7 +207,7 @@ header{
 }
 .main-nav-menu #av-main-nav .nav-item form .search_icon .fa,.mob-nav form .search_icon .fa{
     font-size: 1.25rem;
-    color: #C24848;
+    color: #CB3F3F;
 }
 .main-nav-menu #av-main-nav .nav-item button,#av-mob-main-nav .offcanvas-body .offcanvas-body-bottom .contact-col button,.mob-nav .mob-noti{
     background: #801C1C;
@@ -241,7 +241,7 @@ header{
     top: 30px;
     height: 5px;
     width: 0;
-    border-bottom: 3px solid #C24848;
+    border-bottom: 3px solid #CB3F3F;
 }
 .main-nav-menu #av-main-nav a.nav-link.active::before{
     width: 100%;
@@ -282,7 +282,7 @@ header{
     background: #FFF9F0;
 }
 .main-nav-menu #av-main-nav .notification .dropdown-menu .dropdown-item a.unread-notification,.main-nav-menu #av-main-nav .notification .dropdown-menu .dropdown-item a.unread-notification:hover{
-    color: #C24848;
+    color: #CB3F3F;
 }
 .main-nav-menu #av-main-nav .notification .dropdown-menu .dropdown-item a.read-notification,.main-nav-menu #av-main-nav .notification .dropdown-menu .dropdown-item a.read-notification:hover{
     color: #9F9F9F;;
@@ -324,7 +324,7 @@ header{
     border: 1px solid #F7A125;
 }
 #av-mob-main-nav.offcanvas{
-    background: #C24848;
+    background: #CB3F3F;
     box-shadow: 0px -8px 20px 10px rgba(0, 0, 0, 0.25);
 }
 #av-mob-main-nav .offcanvas-end{
@@ -378,7 +378,7 @@ section,footer{
 }
 .primary-links button{
     background: #FFFFFF;
-    border: 1px solid #C24848;
+    border: 1px solid #CB3F3F;
     box-shadow: -4px 5px 14px -6px rgba(0, 0, 0, 0.3);
     border-radius: 16px;
     width: 237px;
@@ -388,7 +388,7 @@ section,footer{
     content: none;
 }
 .primary-links button:hover{
-    color: #C24848;
+    color: #CB3F3F;
 }
 .primary-links button .btn-arrow{
     transition: all 0.5s;
@@ -397,10 +397,10 @@ section,footer{
     font-size: 20px;
 }
 .primary-links button.dark .p-link-before-icons{
-    color: #c24848;
+    color: #CB3F3F;
 }
 .primary-links .dropdown-menu{
-    background: #C24848;
+    background: #CB3F3F;
     border-radius: 12px;
     min-width: 45vw;
     width: 100%;
@@ -438,7 +438,7 @@ section,footer{
 
 /* Hero Section */
 .hero-section .left-col .btn{
-    background: #C24848;
+    background: #CB3F3F;
     border-radius: 28px;
 }
 .hero-section .left-col .btn:hover{
@@ -465,7 +465,7 @@ section,footer{
 .hero-section .right-col .carousel .carousel-indicators [data-bs-target]{
     width: 10px;
     height: 10px;
-    background: #C24848;
+    background: #CB3F3F;
     border-radius: 50%;
     border: none;
 }
@@ -477,7 +477,7 @@ section,footer{
 }
 .services-section .card{
     background: #FFFFFF;
-    border: 2px solid #C24848;
+    border: 2px solid #CB3F3F;
     box-sizing: border-box;
     border-radius: 16px;
     min-height: 160px;
@@ -489,7 +489,7 @@ section,footer{
     top: 10px;
 }
 .services-section .card a{
-    color: #C24848;
+    color: #CB3F3F;
 }
 .services-section .card .card-title{
     margin-bottom: 0;
@@ -510,7 +510,7 @@ section,footer{
     transition: all 0.5s;
 }
 .services-section .card:hover{
-    background: #C24848;
+    background: #CB3F3F;
     transition: all 0.5s;
 }
 .services-section .card:hover .services-icon path{
@@ -537,7 +537,7 @@ section,footer{
     border-radius: 12px;
 }
 .services-section .calculators-row .btn{
-    background: #C24848;
+    background: #CB3F3F;
     border-radius: 10px;
     line-height: 29px;
 }
@@ -566,7 +566,7 @@ section,footer{
     color: black;
 }
 .services-section .sidebar{
-    background: #C24848;
+    background: #CB3F3F;
     border-radius: 12px;
 }
 .services-section .sidebar .row-title{
@@ -650,7 +650,7 @@ section,footer{
 
 /* Loans Section */
 .loan-section .newsletter-col{
-    background: #C24848;
+    background: #CB3F3F;
     border-radius: 12px;
 }
 .loan-section .newsletter-col .sub-title{
@@ -691,7 +691,7 @@ section,footer{
     padding-right: 25%;
 }
 .loan-section .loan-col .btn{
-    background: #C24848;
+    background: #CB3F3F;
     border-radius: 18px;
 }
 /* Loans Section End*/
@@ -754,7 +754,7 @@ footer .bottom-section{
     transition: all 0.5s;
 }
 .mob-footer .accordion .accordion-button{
-    border-bottom: 0.5px solid #C24848;
+    border-bottom: 0.5px solid #CB3F3F;
 }
 /* Mob Footer End*/
 /* Footer End*/

@@ -62,7 +62,7 @@ a:hover{
 body.dark,.services-section .locate-row .locations-col a.dark:hover{
     background: #2B3648;
 }
-header.dark,.primary-links button.dark,.services-section .card.dark,.services-section .sidebar.dark,.services-section .calculators-row.dark,.services-section .locate-row .locations-col.dark,.activities-section .support-col .row-content.dark a:hover, .activities-section .security-col .row-content.dark a:hover,.loan-section .newsletter-col.dark,footer .top-section.dark{
+header.dark,.primary-links button.dark,.primary-links button.dd-open.dark,.services-section .card.dark,.services-section .sidebar.dark,.services-section .calculators-row.dark,.services-section .locate-row .locations-col.dark,.activities-section .support-col .row-content.dark a:hover, .activities-section .security-col .row-content.dark a:hover,.loan-section .newsletter-col.dark,footer .top-section.dark{
     background: #212936;
 }
 .label.dark{
@@ -383,6 +383,14 @@ section,footer{
     border-radius: 16px;
     width: 237px;
     line-height: 39px;
+}
+.primary-links button.dd-open{
+    background: #CB3F3F;
+    color: #FFDAA5;
+    box-shadow: -4px 5px 14px -6px rgba(0, 0, 0, 0.3);
+}
+.primary-links button.dd-open:hover{
+    color: #FFDAA5;
 }
 .primary-links button::after{
     content: none;

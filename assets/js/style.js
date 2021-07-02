@@ -36,20 +36,12 @@ $(document).ready(function(){
     // Primary Links Dropdown
     var primary_link_btn = $('.primary-links button');
     primary_link_btn.on('show.bs.dropdown',function(e){
-        $(this).css({
-            'background': '#CB3F3F',
-            'color': '#FFDAA5',
-            'box-shadow': '-4px 5px 14px -6px rgba(0, 0, 0, 0.3)'
-        });
+        $(this).addClass('dd-open');
         $(this).find('.btn-arrow').css('transform','rotate(-180deg)');
         $(this).next('.dropdown-menu').first().stop(true, true).slideDown();
     });
     primary_link_btn.on('hide.bs.dropdown',function(e){
-        $(this).css({
-            'background': '#FFFFFF',
-            'color': '#CB3F3F',
-            'box-shadow': '-4px 5px 14px -6px rgba(0, 0, 0, 0.3)'
-        });
+        $(this).removeClass('dd-open');
         $(this).find('.btn-arrow').css('transform','rotate(0deg)');
         e.preventDefault();
         $(this).next('.dropdown-menu').first().stop(true, true).slideUp(400, function(){

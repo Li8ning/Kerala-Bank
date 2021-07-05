@@ -60,10 +60,10 @@
                                     <li class="nav-item menu-links dropdown">
                                         <a class="nav-link dropdown-toggle av-font-ii" href="#" id="about-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
                                         <ul class="dropdown-menu" aria-labelledby="about-dropdown">
-                                            <li><a class="dropdown-item av-font-ii" href="#">Vision & Mission</a></li>
-                                            <li><a class="dropdown-item av-font-ii" href="#">KB Overview</a></li>
-                                            <li><a class="dropdown-item av-font-ii" href="#">History of Kerala Bank</a></li>
-                                            <li><a class="dropdown-item av-font-ii" href="#">Shriram Committee Report</a></li>
+                                            <li><a class="dropdown-item av-font-color-v av-font-ii" href="#">Vision & Mission</a></li>
+                                            <li><a class="dropdown-item av-font-color-v av-font-ii" href="#">KB Overview</a></li>
+                                            <li><a class="dropdown-item av-font-color-v av-font-ii" href="#">History of Kerala Bank</a></li>
+                                            <li><a class="dropdown-item av-font-color-v av-font-ii" href="#">Shriram Committee Report</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">

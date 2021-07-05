@@ -672,7 +672,29 @@ include('header.php');?>
     <section class="container-fluid container-xxl px-xl-4 px-xxl-0 loan-section">
         <div class="row justify-content-between">
             <div class="col-lg-5 d-none d-lg-block newsletter-col text-center av-font-color-iii">
-                <img src="./assets/svg/newsletter.svg" alt="" class="img-fluid mb-2 mt-3">
+                <svg width="83" height="44" viewBox="0 0 83 44" fill="none" class="img-fluid mb-2 mt-3" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="39" y="0" width="44" height="43">
+                        <rect x="50.0093" y="0.000244141" width="33.643" height="33.643" transform="rotate(18.0198 50.0093 0.000244141)" fill="white"/>
+                    </mask>
+                    <g mask="url(#mask0)" id="env-1">
+                        <path d="M74.9345 14.0057C76.4008 14.4827 77.2103 16.0727 76.7333 17.539L71.5296 33.5354C71.0526 35.0018 69.4626 35.8112 67.9963 35.3342L46.6677 28.396C45.2014 27.919 44.3919 26.329 44.8689 24.8627L50.0726 8.86626C50.5496 7.39993 52.1396 6.59047 53.6059 7.06747L74.9345 14.0057Z" stroke="#FFE5BF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M76.7334 17.5385L60.3676 22.5333L50.0728 8.86572" stroke="#FFE5BF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="44" height="44">
+                        <rect y="12.9148" width="33.643" height="33.643" transform="rotate(-22.5739 0 12.9148)" fill="white"/>
+                    </mask>
+                    <g mask="url(#mask1)" id="env-2">
+                        <path d="M28.0399 7.33105C29.4638 6.73913 31.113 7.41978 31.7049 8.84361L38.1623 24.3763C38.7542 25.8002 38.0736 27.4494 36.6497 28.0414L15.9394 36.6512C14.5156 37.2431 12.8664 36.5624 12.2744 35.1386L5.81707 19.6059C5.22515 18.182 5.9058 16.5328 7.32963 15.9409L28.0399 7.33105Z" stroke="#FFE5BF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M31.7048 8.8432L22.5276 23.2851L5.81689 19.6055" stroke="#FFE5BF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <mask id="mask2" mask-type="alpha" maskUnits="userSpaceOnUse" x="25" y="6" width="34" height="35">
+                        <rect x="25.3013" y="6.60059" width="33.643" height="33.643" fill="white"/>
+                    </mask>
+                    <g mask="url(#mask2)" id="env-3">
+                        <path d="M53.3363 12.2085C54.8783 12.2085 56.1399 13.4701 56.1399 15.0121V31.8336C56.1399 33.3756 54.8783 34.6372 53.3363 34.6372H30.9076C29.3657 34.6372 28.1041 33.3756 28.1041 31.8336V15.0121C28.1041 13.4701 29.3657 12.2085 30.9076 12.2085H53.3363Z" stroke="#FFE5BF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#CB3F3F"/>
+                        <path d="M56.1399 15.0115L42.122 24.824L28.1041 15.0115" stroke="#FFE5BF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                </svg>
                 <p class="sub-title av-font-iv mb-1">Subscribe To Our Newsletter</p>
                 <h4 class="av-font-vii col-title fw-bold mb-3">Stay Updated</h4>
                 <form class="px-3">
@@ -702,9 +724,31 @@ include('header.php');?>
 </div>
 
 <!-- Subscribe section for tab and below -->
-<div class="row loan-section w-100 mt-5 mx-0">
-    <div class="col-12 d-lg-none newsletter-col text-center av-font-color-iii">
-        <img src="./assets/svg/newsletter.svg" alt="" class="img-fluid mb-2 mt-3">
+<div class="row d-lg-none loan-section w-100 mt-5 mx-0">
+    <div class="col-12 newsletter-col text-center av-font-color-iii">
+        <svg width="83" height="44" viewBox="0 0 83 44" fill="none" class="img-fluid mb-2 mt-3" xmlns="http://www.w3.org/2000/svg">
+            <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="39" y="0" width="44" height="43">
+                <rect x="50.0093" y="0.000244141" width="33.643" height="33.643" transform="rotate(18.0198 50.0093 0.000244141)" fill="white"/>
+            </mask>
+            <g mask="url(#mask0)" id="env-1">
+                <path d="M74.9345 14.0057C76.4008 14.4827 77.2103 16.0727 76.7333 17.539L71.5296 33.5354C71.0526 35.0018 69.4626 35.8112 67.9963 35.3342L46.6677 28.396C45.2014 27.919 44.3919 26.329 44.8689 24.8627L50.0726 8.86626C50.5496 7.39993 52.1396 6.59047 53.6059 7.06747L74.9345 14.0057Z" stroke="#FFE5BF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M76.7334 17.5385L60.3676 22.5333L50.0728 8.86572" stroke="#FFE5BF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+            <mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="44" height="44">
+                <rect y="12.9148" width="33.643" height="33.643" transform="rotate(-22.5739 0 12.9148)" fill="white"/>
+            </mask>
+            <g mask="url(#mask1)" id="env-2">
+                <path d="M28.0399 7.33105C29.4638 6.73913 31.113 7.41978 31.7049 8.84361L38.1623 24.3763C38.7542 25.8002 38.0736 27.4494 36.6497 28.0414L15.9394 36.6512C14.5156 37.2431 12.8664 36.5624 12.2744 35.1386L5.81707 19.6059C5.22515 18.182 5.9058 16.5328 7.32963 15.9409L28.0399 7.33105Z" stroke="#FFE5BF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M31.7048 8.8432L22.5276 23.2851L5.81689 19.6055" stroke="#FFE5BF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+            <mask id="mask2" mask-type="alpha" maskUnits="userSpaceOnUse" x="25" y="6" width="34" height="35">
+                <rect x="25.3013" y="6.60059" width="33.643" height="33.643" fill="white"/>
+            </mask>
+            <g mask="url(#mask2)" id="env-3">
+                <path d="M53.3363 12.2085C54.8783 12.2085 56.1399 13.4701 56.1399 15.0121V31.8336C56.1399 33.3756 54.8783 34.6372 53.3363 34.6372H30.9076C29.3657 34.6372 28.1041 33.3756 28.1041 31.8336V15.0121C28.1041 13.4701 29.3657 12.2085 30.9076 12.2085H53.3363Z" stroke="#FFE5BF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="#CB3F3F"/>
+                <path d="M56.1399 15.0115L42.122 24.824L28.1041 15.0115" stroke="#FFE5BF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+        </svg>
         <p class="sub-title av-font-iv mb-1">Subscribe To Our Newsletter</p>
         <h4 class="av-font-vii col-title fw-bold mb-3">Stay Updated</h4>
         <form class="px-3">

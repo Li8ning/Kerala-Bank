@@ -6,13 +6,25 @@ function dark_mode(class_name) {
             dark_mode_counter = 0;
         }
         else{
-            $(element).addClass('dark').css('transition','all 0.5s');
+            $(element).addClass('dark').css('transition','color 0.5s,background-color 0.5s');
             dark_mode_counter = 1;
         }
     });
 }
 
 $(document).ready(function(){
+
+    // When the user scrolls down 50px from the top of the document, resize the site logo size
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {            
+            $('.main-nav-menu .navbar-brand img').removeClass('at-top');
+        } else {            
+            $('.main-nav-menu .navbar-brand img').addClass('at-top');
+        }
+    }
+
     var page_link_active = false; // for checking if the link has already active class
     // On hover show dropdown
     $('.main-nav-menu #av-main-nav .menu-links.dropdown').mouseenter(function() {
@@ -120,7 +132,7 @@ $(document).ready(function(){
     // Dark Mode Activator
     var dark_mode_counter = 0;
     $('#chk').change(function() {
-        var class_name = ['body', 'header','.label','.label .ball','.av-font-func button','.main-nav-menu #av-main-nav a.nav-link','.main-nav-menu #av-main-nav .nav-item form .search','.mob-nav form .search','.main-nav-menu #av-main-nav .nav-item form .search_input','.mob-nav form .search_input','.primary-links button','.hero-section .left-col h1','.hero-section .left-col p','.services-section .card','.services-section .sidebar','.services-section .calculators-row','.services-section .locate-row .row-title span','.services-section .locate-row .locations-col','.services-section .locate-row .locations-col a','.services-section .more-service-link a','.activities-section .row-title','.activities-section .row-content','.activities-section .media-col','.loan-section .newsletter-col','footer .top-section','footer .bottom-section'];
+        var class_name = ['body', 'header','.label','.label .ball','.av-font-func button','.main-nav-menu #av-main-nav a.nav-link','.main-nav-menu #av-main-nav .dropdown-menu','.main-nav-menu #av-main-nav .nav-item form .search','.mob-nav form .search','.main-nav-menu #av-main-nav .nav-item form .search_input','.mob-nav form .search_input','.primary-links button','.primary-links .dropdown-menu','.hero-section .left-col h1','.hero-section .left-col p','.services-section .card','.services-section .sidebar','.services-section .calculators-row','.services-section .locate-row .row-title span','.services-section .locate-row .locations-col','.services-section .locate-row .locations-col a','.services-section .more-service-link a','.activities-section .row-title','.activities-section .row-content','.activities-section .media-col','.loan-section .newsletter-col','footer .top-section','footer .bottom-section'];
         dark_mode(class_name);
     });
 

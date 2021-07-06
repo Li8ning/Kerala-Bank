@@ -142,7 +142,7 @@ footer .bottom-section.dark{
 
 /* Header */
 header{
-    background: #CB3F3F;
+    background: #FFFFFF;
     box-shadow: 0px 11px 16px -17px rgba(51, 51, 51, 0.3);
     transition: 0.5s;
 }
@@ -215,7 +215,7 @@ header{
     content: none;
 }
 .main-nav-menu #av-main-nav a.nav-link{
-    color: #FFFFFF;
+    color: #801C1C;
     font-weight: bold;
     margin-right: 18px;
     padding-left: 0;
@@ -227,10 +227,10 @@ header{
     width: 182px;
     height: 38px;
     border-radius: 40px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #801C1C;
 }
 .main-nav-menu #av-main-nav .nav-item form .search_input,.mob-nav form .search_input{
-    color: #FFFFFF;
+    color: #4E111C;
     border: 0;
     outline: 0;
     background: none;
@@ -240,7 +240,7 @@ header{
 }
 .main-nav-menu #av-main-nav .nav-item form .search_icon .fa,.mob-nav form .search_icon .fa{
     font-size: 1.25rem;
-    color: #FFFFFF;
+    color: #CB3F3F;
 }
 .main-nav-menu #av-main-nav .nav-item button,#av-mob-main-nav .offcanvas-body .offcanvas-body-bottom .contact-col button,.mob-nav .mob-noti{
     background: #801C1C;
@@ -274,13 +274,10 @@ header{
     top: 30px;
     height: 5px;
     width: 0;
-    border-bottom: 3px solid #FFDAA5;
+    border-bottom: 3px solid #CB3F3F;
 }
 .main-nav-menu #av-main-nav a.nav-link.active::before{
     width: 100%;
-}
-.main-nav-menu #av-main-nav a.nav-link:hover,.main-nav-menu #av-main-nav a.nav-link:focus{
-    color: #FFDAA5;
 }
 .main-nav-menu #av-main-nav a.nav-link:hover::before,.main-nav-menu #av-main-nav a.nav-link:focus::before{ /* Border width animation on hover on link */
     width: 100%;

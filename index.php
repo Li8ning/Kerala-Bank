@@ -698,7 +698,7 @@ include('header.php');?>
                 <p class="sub-title av-font-iv mb-1">Subscribe To Our Newsletter</p>
                 <h4 class="av-font-vii col-title fw-bold mb-3">Stay Updated</h4>
                 <form class="px-3">
-                    <input type="email" class="form-control mb-3" id="kb-newsletter-field" placeholder="Enter Your Email" value="demo@gmail.com">
+                    <input type="email" class="form-control mb-3" id="kb-newsletter-field-desk" placeholder="Enter Your Email" value="demo@gmail.com">
                     <button type="submit" class="btn mb-3 px-5 fw-bold av-font-ii">Subscribe Now</button>
                 </form>
             </div>
@@ -752,7 +752,7 @@ include('header.php');?>
         <p class="sub-title av-font-iv mb-1">Subscribe To Our Newsletter</p>
         <h4 class="av-font-vii col-title fw-bold mb-3">Stay Updated</h4>
         <form class="px-3">
-            <input type="email" class="form-control mb-3" id="kb-newsletter-field" placeholder="Enter Your Email" value="demo@gmail.com">
+            <input type="email" class="form-control mb-3" id="kb-newsletter-field-mob" placeholder="Enter Your Email" value="demo@gmail.com">
             <button type="submit" class="btn mb-3 px-5 fw-bold av-font-ii">Subscribe Now</button>
         </form>
     </div>

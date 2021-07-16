@@ -6,7 +6,7 @@
                 <div class="col">
                     <div class="row align-items-center pb-2">
                         <div class="col-1">
-                            <img src="./assets/svg/letter 1 logo.svg" alt="">
+                            <img src="./assets/svg/KB-1-logo.svg" alt="">
                         </div>
                         <div class="col-10 col-heading fw-bold av-font-iii">
                             <span>About Us</span>
@@ -25,7 +25,7 @@
                     </div>
                     <div class="row align-items-center pb-2">
                         <div class="col-1">
-                            <img src="./assets/svg/letter 1 logo.svg" alt="">
+                            <img src="./assets/svg/KB-1-logo.svg" alt="">
                         </div>
                         <div class="col-10 col-heading fw-bold av-font-iii">
                             <span>Locate Us</span>
@@ -46,7 +46,7 @@
                 <div class="col">
                     <div class="row align-items-center pb-2">
                         <div class="col-1">
-                            <img src="./assets/svg/letter 1 logo.svg" alt="">
+                            <img src="./assets/svg/KB-1-logo.svg" alt="">
                         </div>
                         <div class="col-10 col-heading fw-bold av-font-iii">
                             <span>Support</span>
@@ -71,7 +71,7 @@
                 <div class="col">
                     <div class="row align-items-center pb-2">
                         <div class="col-1">
-                            <img src="./assets/svg/letter 1 logo.svg" alt="">
+                            <img src="./assets/svg/KB-1-logo.svg" alt="">
                         </div>
                         <div class="col-10 col-heading fw-bold av-font-iii">
                             <span>Media Room</span>
@@ -88,7 +88,7 @@
                     </div>
                     <div class="row align-items-center pb-2">
                         <div class="col-1">
-                            <img src="./assets/svg/letter 1 logo.svg" alt="">
+                            <img src="./assets/svg/KB-1-logo.svg" alt="">
                         </div>
                         <div class="col-10 col-heading fw-bold av-font-iii">
                             <span>Security Centre</span>
@@ -107,7 +107,7 @@
                 <div class="col">
                     <div class="row align-items-center pb-2">
                         <div class="col-1">
-                            <img src="./assets/svg/letter 1 logo.svg" alt="">
+                            <img src="./assets/svg/KB-1-logo.svg" alt="">
                         </div>
                         <div class="col-10 col-heading fw-bold av-font-iii">
                             <span>Resources</span>
@@ -129,7 +129,7 @@
                 <div class="col">
                     <div class="row align-items-center pb-2">
                         <div class="col-1">
-                            <img src="./assets/svg/letter 1 logo.svg" alt="">
+                            <img src="./assets/svg/KB-1-logo.svg" alt="">
                         </div>
                         <div class="col-10 col-heading fw-bold av-font-iii">
                             <span>Useful Links</span>
@@ -158,7 +158,7 @@
                                 <h2 class="accordion-header" id="f_menu-heading-1">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f_menu-collapse-1" aria-expanded="false" aria-controls="f_menu-collapse-1">
                                     <div class="col-1">
-                                        <img src="./assets/svg/letter 1 logo.svg" alt="">
+                                        <img src="./assets/svg/KB-1-logo.svg" alt="">
                                     </div>
                                     <div class="col-10 col-heading fw-bold av-font-iii">
                                         <span>About Us</span>
@@ -184,7 +184,7 @@
                                 <h2 class="accordion-header" id="f_menu-heading-2">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f_menu-collapse-2" aria-expanded="false" aria-controls="f_menu-collapse-2">
                                     <div class="col-1">
-                                        <img src="./assets/svg/letter 1 logo.svg" alt="">
+                                        <img src="./assets/svg/KB-1-logo.svg" alt="">
                                     </div>
                                     <div class="col-10 col-heading fw-bold av-font-iii">
                                         <span>Locate Us</span>
@@ -210,7 +210,7 @@
                                 <h2 class="accordion-header" id="f_menu-heading-3">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f_menu-collapse-3" aria-expanded="false" aria-controls="f_menu-collapse-3">
                                     <div class="col-1">
-                                        <img src="./assets/svg/letter 1 logo.svg" alt="">
+                                        <img src="./assets/svg/KB-1-logo.svg" alt="">
                                     </div>
                                     <div class="col-10 col-heading fw-bold av-font-iii">
                                         <span>Support</span>
@@ -240,7 +240,7 @@
                                 <h2 class="accordion-header" id="f_menu-heading-4">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f_menu-collapse-4" aria-expanded="false" aria-controls="f_menu-collapse-4">
                                     <div class="col-1">
-                                        <img src="./assets/svg/letter 1 logo.svg" alt="">
+                                        <img src="./assets/svg/KB-1-logo.svg" alt="">
                                     </div>
                                     <div class="col-10 col-heading fw-bold av-font-iii">
                                         <span>Media Room</span>
@@ -266,7 +266,7 @@
                                 <h2 class="accordion-header" id="f_menu-heading-5">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f_menu-collapse-5" aria-expanded="false" aria-controls="f_menu-collapse-5">
                                     <div class="col-1">
-                                        <img src="./assets/svg/letter 1 logo.svg" alt="">
+                                        <img src="./assets/svg/KB-1-logo.svg" alt="">
                                     </div>
                                     <div class="col-10 col-heading fw-bold av-font-iii">
                                         <span>Security Center</span>
@@ -290,7 +290,7 @@
                                 <h2 class="accordion-header" id="f_menu-heading-6">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f_menu-collapse-6" aria-expanded="false" aria-controls="f_menu-collapse-6">
                                     <div class="col-1">
-                                        <img src="./assets/svg/letter 1 logo.svg" alt="">
+                                        <img src="./assets/svg/KB-1-logo.svg" alt="">
                                     </div>
                                     <div class="col-10 col-heading fw-bold av-font-iii">
                                         <span>Resources</span>
@@ -317,7 +317,7 @@
                                 <h2 class="accordion-header" id="f_menu-heading-7">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f_menu-collapse-7" aria-expanded="false" aria-controls="f_menu-collapse-7">
                                     <div class="col-1">
-                                        <img src="./assets/svg/letter 1 logo.svg" alt="">
+                                        <img src="./assets/svg/KB-1-logo.svg" alt="">
                                     </div>
                                     <div class="col-10 col-heading fw-bold av-font-iii">
                                         <span>Useful Links</span>
@@ -373,6 +373,5 @@
 
 <script src="./assets/js/bootstrap.bundle.min.js"></script>
 <script src="./assets/js/style.js"></script>
-<!-- <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script> -->
 </body>
 </html>

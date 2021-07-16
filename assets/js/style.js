@@ -1,17 +1,3 @@
-// Dark Mode Function
-function dark_mode(class_name) {
-    class_name.forEach(element => {
-        if ($(element).hasClass('dark')) {
-            $(element).removeClass('dark');
-            dark_mode_counter = 0;
-        }
-        else{
-            $(element).addClass('dark').css('transition','color 0.5s,background-color 0.5s');
-            dark_mode_counter = 1;
-        }
-    });
-}
-
 $(document).ready(function(){
 
     // When the user scrolls down 50px from the top of the document, resize the site logo size
@@ -132,8 +118,14 @@ $(document).ready(function(){
     // Dark Mode Activator
     var dark_mode_counter = 0;
     $('#chk').change(function() {
-        var class_name = ['body', 'header','.label','.label .ball','.av-font-func button','.main-nav-menu #av-main-nav a.nav-link','.main-nav-menu #av-main-nav .dropdown-menu','.main-nav-menu #av-main-nav .nav-item form .search','.mob-nav form .search','.main-nav-menu #av-main-nav .nav-item form .search_input','.mob-nav form .search_input','.primary-links button','.primary-links .dropdown-menu','.hero-section .left-col h1','.hero-section .left-col p','.services-section .card','.services-section .sidebar','.services-section .calculators-row','.services-section .locate-row .row-title span','.services-section .locate-row .locations-col','.services-section .locate-row .locations-col a','.services-section .more-service-link a','.activities-section .row-title','.activities-section .row-content','.activities-section .media-col','.loan-section .newsletter-col','footer .top-section','footer .bottom-section'];
-        dark_mode(class_name);
+        if ($('body').hasClass('dark')) {
+            $('body').removeClass('dark');
+            dark_mode_counter = 0;
+        }
+        else{
+            $('body').addClass('dark').css('transition','color 0.5s,background-color 0.5s');
+            dark_mode_counter = 1;
+        }
     });
 
     // Accordion Functionality for mob menu
